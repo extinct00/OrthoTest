@@ -1,0 +1,10 @@
+TODO
+
+změnit logo aby bylo vetší
+přidat místo pro displej a klávesu navíc pro šipky a rotary enkoder
+upravit velikosti 2u pro mezerník tak aby jsem měl klávesy které mohu používat
+
+vytvořit pcb a rozmyslet jestli custom hardware a nebo jenom devkit
+vykuchtit layout tak aby vše sedělo
+
+vytisknout z normálního filamentu
