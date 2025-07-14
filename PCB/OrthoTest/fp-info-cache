@@ -1,4 +1,4 @@
-25409886027039750
+25411648601628374
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -68543,6 +68543,13 @@ Mounting_Hole_2.2mm
 0
 1
 1
+MyKeebLib
+SSD1306-0.91-OLED-4pin-128x32
+
+
+0
+4
+4
 MyKeebLib
 SW_Redragon_LowProfile_PCB_1.00u
 Cherry MX keyswitch PCB Mount with 1.00u keycap
