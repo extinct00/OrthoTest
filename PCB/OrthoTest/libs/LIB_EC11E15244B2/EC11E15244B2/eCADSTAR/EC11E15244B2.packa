@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "EC11E15244B2"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2024-09-30-05:42:34)
+    (mountForm default
+        (footprintRef "EC11E15244B2")
+        (spec "System")
+    )
+)

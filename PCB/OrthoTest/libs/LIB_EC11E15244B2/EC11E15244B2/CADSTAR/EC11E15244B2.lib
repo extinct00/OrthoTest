@@ -1,0 +1,17 @@
+.EC11E15244B2 :1 ;Rotary Encoder Mechanical 15 Quadrature (Incremental) Vertical
+EC11E15244B2
+*STM U
+*NGS
+*PNM 1=1 2=2 3=A1 4=B1 5=C1 6=D1 7=E1
+*PLB 1="MH1" 2="MH2" 3="A1" 4="B1" 5="C1" 6="COM" 7="NO"
+*MXP 7
+*DFN EC11E15244B2
+~!TME Electronic Components Part Number (-)
+~!TME Electronic Components Price/Stock (-)
+~!Manufacturer_Name (ALPS Electric)
+~!Manufacturer_Part_Number (EC11E15244B2)
+~!Link Datasheet (https://tech.alpsalpine.com/e/products/detail/EC11E15244B2/)
+~!Height (24.5mm)
+~!3D_Model (EC11E15244B2)
+EC11E15244B2
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 

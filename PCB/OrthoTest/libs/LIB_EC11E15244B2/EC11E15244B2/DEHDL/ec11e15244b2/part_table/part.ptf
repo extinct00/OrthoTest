@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'EC11E15244B2'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "TME_ELECTRONIC_COMPONENTS_PART_NUMBER", "TME_ELECTRONIC_COMPONENTS_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "ALPS Electric", "EC11E15244B2" (!) = "", "EC11E15244B2", "Other", "", "", "Rotary Encoder Mechanical 15 Quadrature (Incremental) Vertical", "https://tech.alpsalpine.com/e/products/detail/EC11E15244B2/", "24.5 mm"
+END_PART
+
+END.
