@@ -60,7 +60,7 @@
       ],
       "drc_exclusions": [
         [
-          "lib_footprint_mismatch|52517500|44410000|a513aa25-d20d-416f-ae7f-bbf5fdf8241a|00000000-0000-0000-0000-000000000000",
+          "lib_footprint_mismatch|52517500|44390000|a513aa25-d20d-416f-ae7f-bbf5fdf8241a|00000000-0000-0000-0000-000000000000",
           ""
         ]
       ],
@@ -520,7 +520,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "OrthoTest.step",
+      "step": "OrthoTest_v3.step",
       "svg": "",
       "vrml": ""
     },

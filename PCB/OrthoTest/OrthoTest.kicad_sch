@@ -718,6 +718,269 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Logic_LevelTranslator:SN74LVC1T45DCK"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -6.35 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SN74LVC1T45DCK"
+				(at 3.81 8.89 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+				(at 0 -11.43 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1t45.pdf"
+				(at -22.86 -16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Single-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, SOT-363"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Level-Shifter CMOS-TTL-Translation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "*SC?70*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SN74LVC1T45DCK_0_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 0) (xy -2.54 1.016) (xy -0.762 1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 0) (xy -0.762 2.032) (xy 1.016 1.016) (xy -0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.762 -1.016) (xy -2.54 -1.016) (xy -2.54 0) (xy -4.572 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 1.016) (xy 2.794 1.016) (xy 2.794 0) (xy 4.064 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.016 0) (xy 1.016 -1.778) (xy 1.016 -2.032) (xy -0.762 -1.016) (xy 1.016 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 0) (xy 2.794 -1.016) (xy 1.016 -1.016)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SN74LVC1T45DCK_1_1"
+				(pin bidirectional line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "DIR"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 10.16 270)
+					(length 2.54)
+					(name "VCCA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 10.16 270)
+					(length 2.54)
+					(name "VCCB"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MCU_Module:RaspberryPi_Pico"
 			(pin_names
 				(offset 0.762)
@@ -2946,6 +3209,18 @@
 		(uuid 4a9861e1-3fee-4183-8091-585789b7e7d0)
 	)
 	(rectangle
+		(start 502.92 121.92)
+		(end 580.39 170.18)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5ce4daed-046c-47e4-bb79-60dcf27a0ff8)
+	)
+	(rectangle
 		(start 13.97 27.94)
 		(end 243.84 157.48)
 		(stroke
@@ -3011,6 +3286,16 @@
 		)
 		(uuid "3ce0acab-dd30-4e21-bfee-164e03f1c04c")
 	)
+	(text "Logic level shifter\n"
+		(exclude_from_sim no)
+		(at 527.304 127.254 0)
+		(effects
+			(font
+				(size 3 3)
+			)
+		)
+		(uuid "4f02212c-c767-4d29-8d77-d0771c5bcd1e")
+	)
 	(text "Rotary encoders\n"
 		(exclude_from_sim no)
 		(at 523.748 62.23 0)
@@ -3023,7 +3308,7 @@
 	)
 	(text "LED bank\n"
 		(exclude_from_sim no)
-		(at 38.1 168.148 0)
+		(at 41.91 168.148 0)
 		(effects
 			(font
 				(size 5 5)
@@ -3074,7 +3359,7 @@
 		(uuid "d8c12c1e-c65c-4486-9d32-c08299edc3ed")
 	)
 	(junction
-		(at 119.38 201.93)
+		(at 123.19 201.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "00983a58-df8a-418b-8c5f-1d9c150e08b6")
@@ -3122,7 +3407,7 @@
 		(uuid "05b67ac4-3834-4773-aa40-2bf6ee492367")
 	)
 	(junction
-		(at 318.77 227.33)
+		(at 322.58 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05c1e4e2-0b23-405e-b62f-87f1acc88d51")
@@ -3134,7 +3419,7 @@
 		(uuid "075a2b47-8516-406c-baf5-70eebbea01a2")
 	)
 	(junction
-		(at 261.62 201.93)
+		(at 265.43 201.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "089b3483-44d0-4955-8a19-760a8fe91233")
@@ -3146,19 +3431,19 @@
 		(uuid "08a06b1c-b096-4117-8e72-d68527218572")
 	)
 	(junction
-		(at 62.23 242.57)
+		(at 66.04 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0affb175-20fa-490d-8fea-84f12d63d638")
 	)
 	(junction
-		(at 290.83 247.65)
+		(at 294.64 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d439340-7435-4cd9-afbe-e917d5db8c96")
 	)
 	(junction
-		(at 147.32 262.89)
+		(at 151.13 262.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0e364b9d-53c5-4889-b92d-a3ab9065d4c2")
@@ -3170,7 +3455,7 @@
 		(uuid "0eeb5829-08ca-4db9-9995-a21ac7a93f25")
 	)
 	(junction
-		(at 90.17 227.33)
+		(at 93.98 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0f672d67-12d7-4972-96d8-e97a3b1f53e6")
@@ -3218,7 +3503,7 @@
 		(uuid "147c3849-56dc-44be-b5d4-ab4b61750506")
 	)
 	(junction
-		(at 233.68 247.65)
+		(at 237.49 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "148c9a9f-fe47-492d-ace6-4ed331c858a0")
@@ -3272,19 +3557,19 @@
 		(uuid "182f8879-01c0-484d-b950-126ff0775ab1")
 	)
 	(junction
-		(at 318.77 186.69)
+		(at 322.58 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1987de50-81cf-4be6-99a9-d6dd97a42c7e")
 	)
 	(junction
-		(at 119.38 242.57)
+		(at 123.19 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19d63840-ccae-4b80-aa2d-9e80bdd15b4d")
 	)
 	(junction
-		(at 20.32 242.57)
+		(at 24.13 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "19e87af9-993c-4091-a3df-9f6031ac6a7c")
@@ -3302,7 +3587,7 @@
 		(uuid "1c3a360a-9f36-4924-b0b2-ca708da1c4d9")
 	)
 	(junction
-		(at 374.65 207.01)
+		(at 378.46 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d5b893d-47dd-4449-835e-7bbb81b031df")
@@ -3320,7 +3605,7 @@
 		(uuid "1ddec532-4321-472b-ac34-55b68f226501")
 	)
 	(junction
-		(at 347.98 186.69)
+		(at 351.79 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f00347c-2ca0-465f-815d-8466606e6a17")
@@ -3344,7 +3629,7 @@
 		(uuid "201ed051-f7cd-48ae-9589-745853248827")
 	)
 	(junction
-		(at 62.23 262.89)
+		(at 66.04 262.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21055129-f4d6-4175-8b15-147347da6b54")
@@ -3392,13 +3677,13 @@
 		(uuid "28464359-a015-4025-852d-ecba78d45451")
 	)
 	(junction
-		(at 147.32 267.97)
+		(at 151.13 267.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "28495b8d-882a-433a-a43e-838d6a53163e")
 	)
 	(junction
-		(at 261.62 262.89)
+		(at 265.43 262.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2a77c49c-4d57-4647-b435-0364e500e5dc")
@@ -3446,19 +3731,19 @@
 		(uuid "3352b27d-8fae-4252-9ac8-7c71e1f3764b")
 	)
 	(junction
-		(at 318.77 247.65)
+		(at 322.58 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "345bd731-d4cf-41fa-b608-45f90d3e4c59")
 	)
 	(junction
-		(at 147.32 201.93)
+		(at 151.13 201.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35004c83-fcb4-4934-a44b-a63b83616d6c")
 	)
 	(junction
-		(at 20.32 262.89)
+		(at 24.13 262.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "353b4acf-8c1b-403e-8688-2d81536fb302")
@@ -3470,13 +3755,13 @@
 		(uuid "364d2d40-02bd-4fa1-8058-edf68d4cd6ef")
 	)
 	(junction
-		(at 62.23 267.97)
+		(at 66.04 267.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36668814-9a54-4d4d-ba38-0ff1c31ab50a")
 	)
 	(junction
-		(at 290.83 227.33)
+		(at 294.64 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "367785ce-0e13-4138-a3bf-e0af746d032b")
@@ -3488,7 +3773,7 @@
 		(uuid "379b398e-f24e-4f75-ae96-ffd680354690")
 	)
 	(junction
-		(at 147.32 207.01)
+		(at 151.13 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37b3571d-7bb5-45ef-95f4-876057088598")
@@ -3500,7 +3785,7 @@
 		(uuid "388689a1-5256-497d-b5d2-91280f888634")
 	)
 	(junction
-		(at 119.38 262.89)
+		(at 123.19 262.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "39159d04-09fe-4c6c-b324-179dde981149")
@@ -3512,7 +3797,7 @@
 		(uuid "3ad64cec-cda1-4a90-8be4-485a0864998c")
 	)
 	(junction
-		(at 147.32 186.69)
+		(at 151.13 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3af0fc22-2628-4b7a-baf1-45e5b53310f0")
@@ -3530,7 +3815,7 @@
 		(uuid "3bbc7384-7440-4002-8797-7c15f3d86300")
 	)
 	(junction
-		(at 318.77 222.25)
+		(at 322.58 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3cca8c58-e473-4e60-be81-af1371d6e22d")
@@ -3560,25 +3845,25 @@
 		(uuid "413c0da4-7612-4124-bb6a-7992404f530d")
 	)
 	(junction
-		(at 147.32 227.33)
+		(at 151.13 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "41c2df49-018d-45c0-b572-81332f35ee9d")
 	)
 	(junction
-		(at 176.53 242.57)
+		(at 180.34 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "43ac96f5-f137-438a-a671-d5ac16fd55aa")
 	)
 	(junction
-		(at 33.02 201.93)
+		(at 36.83 201.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "445bb844-891e-4393-a492-8996eec25517")
 	)
 	(junction
-		(at 318.77 242.57)
+		(at 322.58 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "472ddeef-de7b-4c00-ac30-8d6daf86e4f7")
@@ -3590,7 +3875,7 @@
 		(uuid "4819c3e5-9cd1-46f0-b1bc-eb54492bfb8d")
 	)
 	(junction
-		(at 176.53 207.01)
+		(at 180.34 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "481b9113-545e-4dfc-8584-6d35de9946ae")
@@ -3632,7 +3917,7 @@
 		(uuid "4aa1ef71-143c-4bbe-a3db-e655c8e6dd72")
 	)
 	(junction
-		(at 33.02 283.21)
+		(at 36.83 283.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4b4040f8-fffc-4d2e-a2fe-b34dddeb7bae")
@@ -3650,7 +3935,7 @@
 		(uuid "4cfef242-da22-4959-8273-21da65cd74d0")
 	)
 	(junction
-		(at 320.04 283.21)
+		(at 323.85 283.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4dd7b9cc-523b-49e6-955c-98d7204a6853")
@@ -3662,7 +3947,7 @@
 		(uuid "4e3fdc85-904c-4207-8d97-1a8aa93eae4c")
 	)
 	(junction
-		(at 262.89 283.21)
+		(at 266.7 283.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e902ab0-3090-4591-99fd-bb59bcb24b9d")
@@ -3734,13 +4019,13 @@
 		(uuid "54e1879e-cbc4-4d9a-833e-682454f02b75")
 	)
 	(junction
-		(at 90.17 267.97)
+		(at 93.98 267.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "55be0926-4ece-468a-85e5-b86a1c428f11")
 	)
 	(junction
-		(at 33.02 262.89)
+		(at 36.83 262.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "571e6d20-f899-46be-b3b6-757ce9e506c4")
@@ -3770,7 +4055,7 @@
 		(uuid "5c6a0d7c-8217-48a6-899e-bc0f432fbebc")
 	)
 	(junction
-		(at 290.83 267.97)
+		(at 294.64 267.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5cb905d4-6118-47af-8daf-8de47700b69f")
@@ -3782,19 +4067,19 @@
 		(uuid "5d6080b7-5050-4b6f-a5e4-d96ceb62a3e3")
 	)
 	(junction
-		(at 233.68 222.25)
+		(at 237.49 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5dc6e861-b2de-4033-beba-14e29815dd9a")
 	)
 	(junction
-		(at 261.62 186.69)
+		(at 265.43 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f9cb41e-6d81-436d-a007-2fa2ad76307a")
 	)
 	(junction
-		(at 119.38 267.97)
+		(at 123.19 267.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "600d2064-a851-4dbb-861c-5ffb2f9e3a55")
@@ -3806,7 +4091,7 @@
 		(uuid "60fd6821-db42-4466-b8c2-7da8b6462c30")
 	)
 	(junction
-		(at 62.23 201.93)
+		(at 66.04 201.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "62a371a3-e1a5-4fef-8d12-ca82231afc50")
@@ -3848,7 +4133,7 @@
 		(uuid "66378d8f-ff33-493b-b46f-a89721705254")
 	)
 	(junction
-		(at 290.83 242.57)
+		(at 294.64 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66b9ef98-6f8b-4678-b10b-7cc2eda748bf")
@@ -3860,7 +4145,7 @@
 		(uuid "670c5e89-d67c-4f1b-838a-85beb9878429")
 	)
 	(junction
-		(at 374.65 186.69)
+		(at 378.46 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67378b07-5052-4524-a4ad-392a50697e08")
@@ -3908,7 +4193,7 @@
 		(uuid "6b57b43b-1a7d-4ed9-99c7-7653487675ea")
 	)
 	(junction
-		(at 90.17 186.69)
+		(at 93.98 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b862b2b-7bd6-4c73-8c13-a049df85bfa2")
@@ -3950,7 +4235,7 @@
 		(uuid "6dca43e6-5b4f-4c0f-84d9-11b62cc5f501")
 	)
 	(junction
-		(at 347.98 267.97)
+		(at 351.79 267.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6ed96bea-3799-4a44-8973-9a32d933948c")
@@ -3962,13 +4247,13 @@
 		(uuid "6f0e568a-c9db-4b30-be8c-138dda79e4a7")
 	)
 	(junction
-		(at 320.04 267.97)
+		(at 323.85 267.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6fc275e5-c585-4b3b-98e1-3809f90a395b")
 	)
 	(junction
-		(at 90.17 262.89)
+		(at 93.98 262.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71003bc3-e955-48a9-a61b-72b247190707")
@@ -3980,13 +4265,13 @@
 		(uuid "71afca86-304a-4a9a-ab6b-af6a2b35352f")
 	)
 	(junction
-		(at 318.77 207.01)
+		(at 322.58 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "726df24e-5962-44d4-b8b4-ee954ffea915")
 	)
 	(junction
-		(at 318.77 262.89)
+		(at 322.58 262.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73053adf-22d5-431a-8dd5-2391b822a219")
@@ -3998,7 +4283,7 @@
 		(uuid "73650a2a-52db-44be-b3e5-4f1f8f9b3d9c")
 	)
 	(junction
-		(at 62.23 283.21)
+		(at 66.04 283.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73839bc9-1056-47e1-9322-9f5313eeb1ce")
@@ -4016,13 +4301,13 @@
 		(uuid "751369f8-bcd6-4947-b56f-9ee0485d253b")
 	)
 	(junction
-		(at 119.38 207.01)
+		(at 123.19 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "75eeeabc-c4a2-4ca2-9aed-e509b6d4d521")
 	)
 	(junction
-		(at 204.47 247.65)
+		(at 208.28 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "768c4101-e1a6-4c8e-8b8b-4f860c236aa1")
@@ -4040,7 +4325,7 @@
 		(uuid "78034dde-510c-4cbb-bdeb-2c15720a5632")
 	)
 	(junction
-		(at 20.32 222.25)
+		(at 24.13 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "79377bab-3845-4ac9-8669-1a3ea216b6bc")
@@ -4064,13 +4349,13 @@
 		(uuid "7b413e48-355e-4e7f-a746-3b682d3c1884")
 	)
 	(junction
-		(at 176.53 201.93)
+		(at 180.34 201.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7c004e32-afab-4b5b-8d25-431b8b215038")
 	)
 	(junction
-		(at 204.47 207.01)
+		(at 208.28 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d70cb7d-b5db-4f43-b479-d1c7dcb7780e")
@@ -4088,19 +4373,19 @@
 		(uuid "7e835c3e-acef-4b8f-b713-d8703cd9c661")
 	)
 	(junction
-		(at 233.68 267.97)
+		(at 237.49 267.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7eafa5df-ff0d-4420-b7d6-9f2921bc2742")
 	)
 	(junction
-		(at 204.47 242.57)
+		(at 208.28 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7f055eb6-d6c5-44cc-87fa-b13932a9501e")
 	)
 	(junction
-		(at 347.98 207.01)
+		(at 351.79 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "80a12859-d4a5-4b63-8cbc-83049e57ebd3")
@@ -4130,7 +4415,7 @@
 		(uuid "83efa88b-2c66-4f68-ac1f-ccd704c324e2")
 	)
 	(junction
-		(at 119.38 227.33)
+		(at 123.19 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "844c7a3d-e276-4936-bec7-c3d6dc69b29a")
@@ -4142,7 +4427,7 @@
 		(uuid "844ef4a3-f200-4eb4-b86f-84db36871add")
 	)
 	(junction
-		(at 233.68 283.21)
+		(at 237.49 283.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "84b535b7-2c17-41f7-a53f-38b265242a8e")
@@ -4160,13 +4445,13 @@
 		(uuid "85ce4744-4a03-41f8-87d8-0c3673c858a8")
 	)
 	(junction
-		(at 90.17 201.93)
+		(at 93.98 201.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85f51c8f-470a-48a6-a780-dc042e230143")
 	)
 	(junction
-		(at 290.83 207.01)
+		(at 294.64 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8663b82e-5cd5-4299-b7e4-cbbbec4e664b")
@@ -4178,7 +4463,7 @@
 		(uuid "86a1d7be-eccd-4a7b-a0c6-956becf5ee17")
 	)
 	(junction
-		(at 261.62 207.01)
+		(at 265.43 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "890b453c-8a78-4f02-a225-ce2ebbcb4d58")
@@ -4214,7 +4499,7 @@
 		(uuid "9381b3f0-0e8d-41cd-b472-4f1df031bc4f")
 	)
 	(junction
-		(at 33.02 242.57)
+		(at 36.83 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9395f21d-ff09-4cb7-9ca3-63d1d23b35d4")
@@ -4256,19 +4541,19 @@
 		(uuid "969c25b2-04e9-48ce-a646-d70f19ecbd9c")
 	)
 	(junction
-		(at 204.47 227.33)
+		(at 208.28 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96afa8c4-f387-4980-9556-85e0a2185047")
 	)
 	(junction
-		(at 62.23 207.01)
+		(at 66.04 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97305ce0-2034-42f8-a05a-a4c35befc6a0")
 	)
 	(junction
-		(at 90.17 242.57)
+		(at 93.98 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97b24687-2db7-48c6-ac25-d38e85c8abb5")
@@ -4280,7 +4565,7 @@
 		(uuid "97c7f579-d6f7-4ce5-9360-5a828a80f0e9")
 	)
 	(junction
-		(at 119.38 222.25)
+		(at 123.19 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97d900f5-8ada-4ab7-99c2-d4ed81dbccc8")
@@ -4292,7 +4577,7 @@
 		(uuid "98be615b-086d-4e42-8400-bc81613a93fa")
 	)
 	(junction
-		(at 62.23 227.33)
+		(at 66.04 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "991f2dfc-f4a5-4385-8a5b-cae789d75d22")
@@ -4310,13 +4595,13 @@
 		(uuid "9b4b638f-fe48-4ce2-9a6a-db3d025c48ed")
 	)
 	(junction
-		(at 233.68 186.69)
+		(at 237.49 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ba1e7a2-b6b0-4449-ae40-fa408c0cd369")
 	)
 	(junction
-		(at 290.83 262.89)
+		(at 294.64 262.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9bd51b85-f995-438f-9473-d425eb950bf4")
@@ -4346,19 +4631,19 @@
 		(uuid "9dcf4222-9b8c-4f9d-ba43-bba9532618cb")
 	)
 	(junction
-		(at 190.5 283.21)
+		(at 194.31 283.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9defa5ec-1fc6-45a3-a1fa-0b7b5287adff")
 	)
 	(junction
-		(at 62.23 186.69)
+		(at 66.04 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e79d947-274c-465d-b5d3-081c4efc8862")
 	)
 	(junction
-		(at 290.83 283.21)
+		(at 294.64 283.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f5c2f5e-3925-41ef-b826-a59b25dac0ce")
@@ -4370,19 +4655,19 @@
 		(uuid "9f872385-a214-4c93-9096-6a9b277fae6c")
 	)
 	(junction
-		(at 176.53 262.89)
+		(at 180.34 262.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a0367b96-a289-4603-9a6f-b6f74151d873")
 	)
 	(junction
-		(at 374.65 247.65)
+		(at 378.46 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2198ae5-37c2-4adf-b74e-43ea7b5e5f32")
 	)
 	(junction
-		(at 62.23 222.25)
+		(at 66.04 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a59520c6-71b1-4e0d-b4a8-d67b72e19c38")
@@ -4400,13 +4685,13 @@
 		(uuid "a7bae1ec-2691-4898-b54a-7f79d7567d78")
 	)
 	(junction
-		(at 290.83 222.25)
+		(at 294.64 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7eb43df-a959-4e02-9884-0f0197702294")
 	)
 	(junction
-		(at 119.38 247.65)
+		(at 123.19 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa7b9bac-a898-4cab-a5ab-efbe24726ade")
@@ -4472,13 +4757,13 @@
 		(uuid "b14aa389-7a2a-4bc5-8488-77472c4e3fe0")
 	)
 	(junction
-		(at 119.38 186.69)
+		(at 123.19 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b1596782-c6b4-48c3-a53f-bc016e058b5f")
 	)
 	(junction
-		(at 233.68 201.93)
+		(at 237.49 201.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b178392a-fdd7-4f39-95c4-591efb804e67")
@@ -4496,13 +4781,13 @@
 		(uuid "b264568a-ed44-4751-a963-dab93eb83737")
 	)
 	(junction
-		(at 90.17 247.65)
+		(at 93.98 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5d2ae08-88f3-438d-9ec7-3c4c13567c93")
 	)
 	(junction
-		(at 318.77 201.93)
+		(at 322.58 201.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b639a4f8-ef5e-4469-9f01-6265739be04e")
@@ -4514,7 +4799,7 @@
 		(uuid "b6a580ec-ade2-4595-ab6b-db189781700e")
 	)
 	(junction
-		(at 33.02 222.25)
+		(at 36.83 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b739fcc0-c6c6-4967-9637-6614dc79e813")
@@ -4526,7 +4811,7 @@
 		(uuid "b89977de-2760-41c0-9611-5fcd5c30a38d")
 	)
 	(junction
-		(at 147.32 222.25)
+		(at 151.13 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "baf0bfc6-a7a4-4c66-a0f9-657e78e787f4")
@@ -4538,19 +4823,19 @@
 		(uuid "bb0af61d-111e-4c0e-b1c9-250ad33b5a3f")
 	)
 	(junction
-		(at 176.53 186.69)
+		(at 180.34 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bcc73d9c-4d01-4882-bae6-5cb805e425cc")
 	)
 	(junction
-		(at 204.47 201.93)
+		(at 208.28 201.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bd716e9b-1cbc-4efb-8f1f-c06e63342367")
 	)
 	(junction
-		(at 261.62 222.25)
+		(at 265.43 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be67e071-9503-484c-b6f1-031a39d6c2b3")
@@ -4568,7 +4853,7 @@
 		(uuid "c0665e83-cb21-490e-87a1-d040291a3b4e")
 	)
 	(junction
-		(at 147.32 247.65)
+		(at 151.13 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c0ed698e-d67c-4fda-91db-7c3ca2d00be7")
@@ -4598,7 +4883,7 @@
 		(uuid "c354e757-287c-4964-8109-a6676640069d")
 	)
 	(junction
-		(at 261.62 227.33)
+		(at 265.43 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3fd46ef-07ce-47e4-9e66-91c222a8ee23")
@@ -4622,7 +4907,7 @@
 		(uuid "c5a7bb97-e0d9-493e-9beb-dffa1d310e2d")
 	)
 	(junction
-		(at 176.53 227.33)
+		(at 180.34 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c5bb4743-4f1f-4c4f-9d2e-51df3ca87841")
@@ -4664,7 +4949,7 @@
 		(uuid "ca6f77eb-5a0c-4e9a-9d74-2f716385dda8")
 	)
 	(junction
-		(at 233.68 242.57)
+		(at 237.49 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ce78eb65-6ae9-46a5-887e-8a06cca95ff4")
@@ -4676,13 +4961,13 @@
 		(uuid "ce85408b-002c-4a5e-adbb-99cb607aa0cd")
 	)
 	(junction
-		(at 90.17 222.25)
+		(at 93.98 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cfde90c2-cd35-4a34-bded-398027e00be2")
 	)
 	(junction
-		(at 90.17 283.21)
+		(at 93.98 283.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d00810df-010a-4277-b755-7c0db22e361d")
@@ -4706,7 +4991,7 @@
 		(uuid "d2b7e18b-a0e7-472a-b814-97a30e7268c5")
 	)
 	(junction
-		(at 347.98 247.65)
+		(at 351.79 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2c0d006-b6e3-4bed-9bd1-810d93c74044")
@@ -4724,13 +5009,19 @@
 		(uuid "d3f73b86-c3dd-4341-8451-9a2b654c7bf0")
 	)
 	(junction
-		(at 347.98 227.33)
+		(at 519.43 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d493b1d9-70ca-44da-a226-d41880860581")
+	)
+	(junction
+		(at 351.79 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5283e4b-1640-44a8-bd28-ff428ea146df")
 	)
 	(junction
-		(at 176.53 222.25)
+		(at 180.34 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5a10c8e-ba51-41cf-9a2a-91c81361b75f")
@@ -4748,7 +5039,7 @@
 		(uuid "d6472f11-2f79-4708-aa7f-84eb282dd108")
 	)
 	(junction
-		(at 90.17 207.01)
+		(at 93.98 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6878b8e-0923-4c0d-b261-9a4e31ba8d0f")
@@ -4760,7 +5051,7 @@
 		(uuid "d7323b61-637b-42db-bd28-5ae8c93a64d8")
 	)
 	(junction
-		(at 204.47 262.89)
+		(at 208.28 262.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d87d765c-6668-4453-86cb-c7fcf59837d6")
@@ -4784,7 +5075,7 @@
 		(uuid "db89ac67-f044-4210-83cf-be9d8ce09abb")
 	)
 	(junction
-		(at 262.89 267.97)
+		(at 266.7 267.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc9fe514-6896-4555-86e3-38c628b2ec69")
@@ -4796,7 +5087,7 @@
 		(uuid "dcaf3f65-f019-4643-ba20-504e40e9cdb3")
 	)
 	(junction
-		(at 119.38 283.21)
+		(at 123.19 283.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfd755b9-29d4-4900-b9e0-1b53f5b45fae")
@@ -4820,13 +5111,13 @@
 		(uuid "e105b344-8b9c-4093-902d-1393cf170c31")
 	)
 	(junction
-		(at 62.23 247.65)
+		(at 66.04 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1219213-ba71-402b-84b0-4962811ff34f")
 	)
 	(junction
-		(at 176.53 247.65)
+		(at 180.34 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e1475586-2c65-4187-abca-c890d009ee14")
@@ -4838,7 +5129,7 @@
 		(uuid "e303b9e6-9860-4fd3-bd95-f2e2386bcbf2")
 	)
 	(junction
-		(at 261.62 247.65)
+		(at 265.43 247.65)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e31f77b0-cef5-4445-9f88-ff935243a938")
@@ -4856,13 +5147,13 @@
 		(uuid "e4f1adf3-920a-45fe-9a95-66f2f28cc99e")
 	)
 	(junction
-		(at 261.62 242.57)
+		(at 265.43 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e50d6ced-acb9-4937-a617-7b006f5bd7ab")
 	)
 	(junction
-		(at 204.47 222.25)
+		(at 208.28 222.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e53c8f8e-27bf-40e0-9542-cd6e1e2ca0f0")
@@ -4886,7 +5177,7 @@
 		(uuid "e7ed8cc9-2c05-498d-b85b-5f3a46c35820")
 	)
 	(junction
-		(at 374.65 227.33)
+		(at 378.46 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e83a8a91-98d4-45c9-a586-f303f200d256")
@@ -4940,13 +5231,13 @@
 		(uuid "ec7f232c-e444-4a71-81ed-906ebf16a7aa")
 	)
 	(junction
-		(at 290.83 201.93)
+		(at 294.64 201.93)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eca80cb9-ffa0-497d-977a-9884ddb317bb")
 	)
 	(junction
-		(at 233.68 207.01)
+		(at 237.49 207.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed12f832-bacd-4a8c-97ee-9fee166f71d0")
@@ -4958,7 +5249,7 @@
 		(uuid "ed6f6bb6-9d4b-4e01-a63e-017d7c9f171f")
 	)
 	(junction
-		(at 233.68 227.33)
+		(at 237.49 227.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ed91f63a-9b77-4790-9630-451bf8941b46")
@@ -4976,7 +5267,7 @@
 		(uuid "f1448ceb-ba60-4ed2-b625-91cc776b5147")
 	)
 	(junction
-		(at 147.32 283.21)
+		(at 151.13 283.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f24cb1f4-88aa-4b46-b65b-75b8f1d73003")
@@ -4994,7 +5285,7 @@
 		(uuid "f2d52e59-db74-416e-a0e8-70f21e3e882f")
 	)
 	(junction
-		(at 290.83 186.69)
+		(at 294.64 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f2f9ff4f-17b0-4c84-9999-738c09826f96")
@@ -5006,7 +5297,7 @@
 		(uuid "f4473a41-fac4-46d7-9c1a-1344c21a65a5")
 	)
 	(junction
-		(at 20.32 283.21)
+		(at 24.13 283.21)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f50a9b71-f151-4088-aad6-a8ef9017b2e1")
@@ -5036,7 +5327,7 @@
 		(uuid "f7668963-b705-4383-9168-484fdfbc3aee")
 	)
 	(junction
-		(at 204.47 186.69)
+		(at 208.28 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7e72d56-ce39-499c-9589-8765ed584c08")
@@ -5060,7 +5351,7 @@
 		(uuid "f9216181-f201-4f6c-bc07-877d690dc313")
 	)
 	(junction
-		(at 190.5 267.97)
+		(at 194.31 267.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f94f69c8-5d76-4259-8948-7a344f0cdb50")
@@ -5078,7 +5369,7 @@
 		(uuid "fab00735-ce88-4c2a-8bc7-91c742a8cd4a")
 	)
 	(junction
-		(at 147.32 242.57)
+		(at 151.13 242.57)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb43d227-42ee-4934-9fae-59534552ae2b")
@@ -5096,7 +5387,7 @@
 		(uuid "fc86cfb8-7071-4b27-81e4-f8031d0df6b7")
 	)
 	(junction
-		(at 233.68 262.89)
+		(at 237.49 262.89)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fcfe8069-1a62-4204-9f38-8d33fb6ef059")
@@ -5110,7 +5401,7 @@
 		(uuid "65dcbd29-b9ad-460d-a921-1cfd8c08a3f9")
 	)
 	(no_connect
-		(at 355.6 275.59)
+		(at 359.41 275.59)
 		(uuid "70bd145b-7337-48c6-a447-228b72d07621")
 	)
 	(no_connect
@@ -5119,7 +5410,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 255.27) (xy 311.15 255.27)
+			(xy 302.26 255.27) (xy 314.96 255.27)
 		)
 		(stroke
 			(width 0)
@@ -5129,7 +5420,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 201.93) (xy 290.83 201.93)
+			(xy 322.58 201.93) (xy 294.64 201.93)
 		)
 		(stroke
 			(width 0)
@@ -5139,7 +5430,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 247.65) (xy 147.32 247.65)
+			(xy 123.19 247.65) (xy 151.13 247.65)
 		)
 		(stroke
 			(width 0)
@@ -5149,7 +5440,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 234.95) (xy 283.21 234.95)
+			(xy 273.05 234.95) (xy 287.02 234.95)
 		)
 		(stroke
 			(width 0)
@@ -5159,7 +5450,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 242.57) (xy 233.68 242.57)
+			(xy 208.28 242.57) (xy 237.49 242.57)
 		)
 		(stroke
 			(width 0)
@@ -5279,7 +5570,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 186.69) (xy 261.62 186.69)
+			(xy 237.49 186.69) (xy 265.43 186.69)
 		)
 		(stroke
 			(width 0)
@@ -5329,7 +5620,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 247.65) (xy 233.68 247.65)
+			(xy 208.28 247.65) (xy 237.49 247.65)
 		)
 		(stroke
 			(width 0)
@@ -5349,7 +5640,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 222.25) (xy 176.53 222.25)
+			(xy 208.28 222.25) (xy 180.34 222.25)
 		)
 		(stroke
 			(width 0)
@@ -5359,7 +5650,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 186.69) (xy 147.32 186.69)
+			(xy 123.19 186.69) (xy 151.13 186.69)
 		)
 		(stroke
 			(width 0)
@@ -5369,7 +5660,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 207.01) (xy 204.47 207.01)
+			(xy 180.34 207.01) (xy 208.28 207.01)
 		)
 		(stroke
 			(width 0)
@@ -5399,7 +5690,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 227.33) (xy 374.65 227.33)
+			(xy 351.79 227.33) (xy 378.46 227.33)
 		)
 		(stroke
 			(width 0)
@@ -5419,7 +5710,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 262.89) (xy 147.32 262.89)
+			(xy 180.34 262.89) (xy 151.13 262.89)
 		)
 		(stroke
 			(width 0)
@@ -5499,6 +5790,16 @@
 	)
 	(wire
 		(pts
+			(xy 544.83 142.24) (xy 519.43 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1857325f-9fa1-45cd-8f99-35ebbbdb39fb")
+	)
+	(wire
+		(pts
 			(xy 54.61 119.38) (xy 71.12 119.38)
 		)
 		(stroke
@@ -5509,7 +5810,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 214.63) (xy 196.85 214.63)
+			(xy 187.96 214.63) (xy 200.66 214.63)
 		)
 		(stroke
 			(width 0)
@@ -5529,7 +5830,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 214.63) (xy 139.7 214.63)
+			(xy 130.81 214.63) (xy 143.51 214.63)
 		)
 		(stroke
 			(width 0)
@@ -5559,7 +5860,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 283.21) (xy 33.02 283.21)
+			(xy 66.04 283.21) (xy 36.83 283.21)
 		)
 		(stroke
 			(width 0)
@@ -5579,7 +5880,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 262.89) (xy 176.53 262.89)
+			(xy 208.28 262.89) (xy 180.34 262.89)
 		)
 		(stroke
 			(width 0)
@@ -5659,7 +5960,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 186.69) (xy 119.38 186.69)
+			(xy 93.98 186.69) (xy 123.19 186.69)
 		)
 		(stroke
 			(width 0)
@@ -5669,7 +5970,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 247.65) (xy 347.98 247.65)
+			(xy 322.58 247.65) (xy 351.79 247.65)
 		)
 		(stroke
 			(width 0)
@@ -5679,7 +5980,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 283.21) (xy 233.68 283.21)
+			(xy 266.7 283.21) (xy 237.49 283.21)
 		)
 		(stroke
 			(width 0)
@@ -5689,7 +5990,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 275.59) (xy 255.27 275.59)
+			(xy 245.11 275.59) (xy 259.08 275.59)
 		)
 		(stroke
 			(width 0)
@@ -5739,7 +6040,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 186.69) (xy 374.65 186.69)
+			(xy 351.79 186.69) (xy 378.46 186.69)
 		)
 		(stroke
 			(width 0)
@@ -5749,7 +6050,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 194.31) (xy 139.7 194.31)
+			(xy 130.81 194.31) (xy 143.51 194.31)
 		)
 		(stroke
 			(width 0)
@@ -5759,7 +6060,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 186.69) (xy 204.47 186.69)
+			(xy 180.34 186.69) (xy 208.28 186.69)
 		)
 		(stroke
 			(width 0)
@@ -5839,7 +6140,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 242.57) (xy 176.53 242.57)
+			(xy 151.13 242.57) (xy 180.34 242.57)
 		)
 		(stroke
 			(width 0)
@@ -5859,7 +6160,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 201.93) (xy 233.68 201.93)
+			(xy 265.43 201.93) (xy 237.49 201.93)
 		)
 		(stroke
 			(width 0)
@@ -5869,7 +6170,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 275.59) (xy 226.06 275.59)
+			(xy 201.93 275.59) (xy 229.87 275.59)
 		)
 		(stroke
 			(width 0)
@@ -5879,7 +6180,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 242.57) (xy 147.32 242.57)
+			(xy 123.19 242.57) (xy 151.13 242.57)
 		)
 		(stroke
 			(width 0)
@@ -5899,7 +6200,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 275.59) (xy 82.55 275.59)
+			(xy 73.66 275.59) (xy 86.36 275.59)
 		)
 		(stroke
 			(width 0)
@@ -5909,7 +6210,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 222.25) (xy 62.23 222.25)
+			(xy 93.98 222.25) (xy 66.04 222.25)
 		)
 		(stroke
 			(width 0)
@@ -5929,7 +6230,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 265.43) (xy 25.4 265.43)
+			(xy 359.41 265.43) (xy 29.21 265.43)
 		)
 		(stroke
 			(width 0)
@@ -5959,7 +6260,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 227.33) (xy 347.98 227.33)
+			(xy 322.58 227.33) (xy 351.79 227.33)
 		)
 		(stroke
 			(width 0)
@@ -5979,7 +6280,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 242.57) (xy 347.98 242.57)
+			(xy 322.58 242.57) (xy 351.79 242.57)
 		)
 		(stroke
 			(width 0)
@@ -5999,7 +6300,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 283.21) (xy 262.89 283.21)
+			(xy 294.64 283.21) (xy 266.7 283.21)
 		)
 		(stroke
 			(width 0)
@@ -6009,7 +6310,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 275.59) (xy 54.61 275.59)
+			(xy 44.45 275.59) (xy 58.42 275.59)
 		)
 		(stroke
 			(width 0)
@@ -6039,7 +6340,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 194.31) (xy 168.91 194.31)
+			(xy 158.75 194.31) (xy 172.72 194.31)
 		)
 		(stroke
 			(width 0)
@@ -6069,7 +6370,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 255.27) (xy 82.55 255.27)
+			(xy 73.66 255.27) (xy 86.36 255.27)
 		)
 		(stroke
 			(width 0)
@@ -6079,7 +6380,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 222.25) (xy 290.83 222.25)
+			(xy 322.58 222.25) (xy 294.64 222.25)
 		)
 		(stroke
 			(width 0)
@@ -6089,7 +6390,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 201.93) (xy 204.47 201.93)
+			(xy 237.49 201.93) (xy 208.28 201.93)
 		)
 		(stroke
 			(width 0)
@@ -6119,7 +6420,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 214.63) (xy 311.15 214.63)
+			(xy 302.26 214.63) (xy 314.96 214.63)
 		)
 		(stroke
 			(width 0)
@@ -6139,7 +6440,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 267.97) (xy 233.68 267.97)
+			(xy 194.31 267.97) (xy 237.49 267.97)
 		)
 		(stroke
 			(width 0)
@@ -6149,7 +6450,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 247.65) (xy 261.62 247.65)
+			(xy 237.49 247.65) (xy 265.43 247.65)
 		)
 		(stroke
 			(width 0)
@@ -6159,7 +6460,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 194.31) (xy 196.85 194.31)
+			(xy 187.96 194.31) (xy 200.66 194.31)
 		)
 		(stroke
 			(width 0)
@@ -6189,7 +6490,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 186.69) (xy 318.77 186.69)
+			(xy 294.64 186.69) (xy 322.58 186.69)
 		)
 		(stroke
 			(width 0)
@@ -6199,7 +6500,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 267.97) (xy 374.65 267.97)
+			(xy 351.79 267.97) (xy 378.46 267.97)
 		)
 		(stroke
 			(width 0)
@@ -6229,7 +6530,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 207.01) (xy 374.65 207.01)
+			(xy 351.79 207.01) (xy 378.46 207.01)
 		)
 		(stroke
 			(width 0)
@@ -6259,7 +6560,17 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 275.59) (xy 111.76 275.59)
+			(xy 519.43 142.24) (xy 519.43 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3eae6fc9-da9f-4851-b2ab-247727c1e0fe")
+	)
+	(wire
+		(pts
+			(xy 101.6 275.59) (xy 115.57 275.59)
 		)
 		(stroke
 			(width 0)
@@ -6269,7 +6580,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 247.65) (xy 290.83 247.65)
+			(xy 265.43 247.65) (xy 294.64 247.65)
 		)
 		(stroke
 			(width 0)
@@ -6279,7 +6590,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 201.93) (xy 147.32 201.93)
+			(xy 180.34 201.93) (xy 151.13 201.93)
 		)
 		(stroke
 			(width 0)
@@ -6289,7 +6600,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 247.65) (xy 374.65 227.33)
+			(xy 378.46 247.65) (xy 378.46 227.33)
 		)
 		(stroke
 			(width 0)
@@ -6309,7 +6620,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 227.33) (xy 176.53 227.33)
+			(xy 151.13 227.33) (xy 180.34 227.33)
 		)
 		(stroke
 			(width 0)
@@ -6319,7 +6630,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 201.93) (xy 20.32 222.25)
+			(xy 24.13 201.93) (xy 24.13 222.25)
 		)
 		(stroke
 			(width 0)
@@ -6336,6 +6647,16 @@
 			(type default)
 		)
 		(uuid "46d48db5-1b1a-4508-a961-6539aae47c9e")
+	)
+	(wire
+		(pts
+			(xy 537.21 157.48) (xy 519.43 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46ec7f34-4ff3-455f-b669-65bab3e1dcc1")
 	)
 	(wire
 		(pts
@@ -6389,7 +6710,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 201.93) (xy 90.17 201.93)
+			(xy 123.19 201.93) (xy 93.98 201.93)
 		)
 		(stroke
 			(width 0)
@@ -6419,7 +6740,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 214.63) (xy 340.36 214.63)
+			(xy 330.2 214.63) (xy 344.17 214.63)
 		)
 		(stroke
 			(width 0)
@@ -6429,7 +6750,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 207.01) (xy 261.62 207.01)
+			(xy 237.49 207.01) (xy 265.43 207.01)
 		)
 		(stroke
 			(width 0)
@@ -6449,7 +6770,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 201.93) (xy 119.38 201.93)
+			(xy 151.13 201.93) (xy 123.19 201.93)
 		)
 		(stroke
 			(width 0)
@@ -6509,7 +6830,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 267.97) (xy 119.38 267.97)
+			(xy 93.98 267.97) (xy 123.19 267.97)
 		)
 		(stroke
 			(width 0)
@@ -6519,7 +6840,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 255.27) (xy 168.91 255.27)
+			(xy 158.75 255.27) (xy 172.72 255.27)
 		)
 		(stroke
 			(width 0)
@@ -6559,7 +6880,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 234.95) (xy 168.91 234.95)
+			(xy 158.75 234.95) (xy 172.72 234.95)
 		)
 		(stroke
 			(width 0)
@@ -6569,7 +6890,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 267.97) (xy 374.65 247.65)
+			(xy 378.46 267.97) (xy 378.46 247.65)
 		)
 		(stroke
 			(width 0)
@@ -6589,7 +6910,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 247.65) (xy 374.65 247.65)
+			(xy 351.79 247.65) (xy 378.46 247.65)
 		)
 		(stroke
 			(width 0)
@@ -6599,7 +6920,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 262.89) (xy 318.77 262.89)
+			(xy 351.79 262.89) (xy 322.58 262.89)
 		)
 		(stroke
 			(width 0)
@@ -6669,7 +6990,7 @@
 	)
 	(wire
 		(pts
-			(xy 262.89 267.97) (xy 290.83 267.97)
+			(xy 266.7 267.97) (xy 294.64 267.97)
 		)
 		(stroke
 			(width 0)
@@ -6679,7 +7000,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 267.97) (xy 62.23 267.97)
+			(xy 36.83 267.97) (xy 66.04 267.97)
 		)
 		(stroke
 			(width 0)
@@ -6689,7 +7010,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 262.89) (xy 33.02 262.89)
+			(xy 66.04 262.89) (xy 36.83 262.89)
 		)
 		(stroke
 			(width 0)
@@ -6709,7 +7030,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 275.59) (xy 312.42 275.59)
+			(xy 302.26 275.59) (xy 316.23 275.59)
 		)
 		(stroke
 			(width 0)
@@ -6769,7 +7090,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 227.33) (xy 147.32 227.33)
+			(xy 123.19 227.33) (xy 151.13 227.33)
 		)
 		(stroke
 			(width 0)
@@ -6779,7 +7100,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 255.27) (xy 355.6 265.43)
+			(xy 359.41 255.27) (xy 359.41 265.43)
 		)
 		(stroke
 			(width 0)
@@ -6809,7 +7130,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 247.65) (xy 176.53 247.65)
+			(xy 151.13 247.65) (xy 180.34 247.65)
 		)
 		(stroke
 			(width 0)
@@ -6819,7 +7140,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 194.31) (xy 355.6 204.47)
+			(xy 359.41 194.31) (xy 359.41 204.47)
 		)
 		(stroke
 			(width 0)
@@ -6829,7 +7150,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 242.57) (xy 318.77 242.57)
+			(xy 294.64 242.57) (xy 322.58 242.57)
 		)
 		(stroke
 			(width 0)
@@ -6839,7 +7160,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 283.21) (xy 20.32 283.21)
+			(xy 36.83 283.21) (xy 24.13 283.21)
 		)
 		(stroke
 			(width 0)
@@ -6869,7 +7190,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 255.27) (xy 111.76 255.27)
+			(xy 101.6 255.27) (xy 115.57 255.27)
 		)
 		(stroke
 			(width 0)
@@ -6879,7 +7200,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 194.31) (xy 54.61 194.31)
+			(xy 44.45 194.31) (xy 58.42 194.31)
 		)
 		(stroke
 			(width 0)
@@ -6899,7 +7220,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 283.21) (xy 62.23 283.21)
+			(xy 93.98 283.21) (xy 66.04 283.21)
 		)
 		(stroke
 			(width 0)
@@ -6929,7 +7250,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 207.01) (xy 90.17 207.01)
+			(xy 66.04 207.01) (xy 93.98 207.01)
 		)
 		(stroke
 			(width 0)
@@ -6949,7 +7270,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 207.01) (xy 176.53 207.01)
+			(xy 151.13 207.01) (xy 180.34 207.01)
 		)
 		(stroke
 			(width 0)
@@ -6959,7 +7280,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 194.31) (xy 254 194.31)
+			(xy 245.11 194.31) (xy 257.81 194.31)
 		)
 		(stroke
 			(width 0)
@@ -6969,7 +7290,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 194.31) (xy 111.76 194.31)
+			(xy 101.6 194.31) (xy 115.57 194.31)
 		)
 		(stroke
 			(width 0)
@@ -6979,7 +7300,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 214.63) (xy 168.91 214.63)
+			(xy 158.75 214.63) (xy 172.72 214.63)
 		)
 		(stroke
 			(width 0)
@@ -7069,7 +7390,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 222.25) (xy 233.68 222.25)
+			(xy 265.43 222.25) (xy 237.49 222.25)
 		)
 		(stroke
 			(width 0)
@@ -7089,7 +7410,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 207.01) (xy 318.77 207.01)
+			(xy 294.64 207.01) (xy 322.58 207.01)
 		)
 		(stroke
 			(width 0)
@@ -7099,7 +7420,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 227.33) (xy 290.83 227.33)
+			(xy 265.43 227.33) (xy 294.64 227.33)
 		)
 		(stroke
 			(width 0)
@@ -7119,7 +7440,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 234.95) (xy 311.15 234.95)
+			(xy 302.26 234.95) (xy 314.96 234.95)
 		)
 		(stroke
 			(width 0)
@@ -7169,7 +7490,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 207.01) (xy 62.23 207.01)
+			(xy 36.83 207.01) (xy 66.04 207.01)
 		)
 		(stroke
 			(width 0)
@@ -7179,7 +7500,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 214.63) (xy 82.55 214.63)
+			(xy 73.66 214.63) (xy 86.36 214.63)
 		)
 		(stroke
 			(width 0)
@@ -7189,7 +7510,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 204.47) (xy 25.4 214.63)
+			(xy 29.21 204.47) (xy 29.21 214.63)
 		)
 		(stroke
 			(width 0)
@@ -7219,7 +7540,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 283.21) (xy 20.32 288.29)
+			(xy 24.13 283.21) (xy 24.13 288.29)
 		)
 		(stroke
 			(width 0)
@@ -7239,7 +7560,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 194.31) (xy 340.36 194.31)
+			(xy 330.2 194.31) (xy 344.17 194.31)
 		)
 		(stroke
 			(width 0)
@@ -7279,7 +7600,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 283.21) (xy 290.83 283.21)
+			(xy 323.85 283.21) (xy 294.64 283.21)
 		)
 		(stroke
 			(width 0)
@@ -7309,7 +7630,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 267.97) (xy 147.32 267.97)
+			(xy 123.19 267.97) (xy 151.13 267.97)
 		)
 		(stroke
 			(width 0)
@@ -7329,7 +7650,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 207.01) (xy 374.65 227.33)
+			(xy 378.46 207.01) (xy 378.46 227.33)
 		)
 		(stroke
 			(width 0)
@@ -7339,7 +7660,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 186.69) (xy 347.98 186.69)
+			(xy 322.58 186.69) (xy 351.79 186.69)
 		)
 		(stroke
 			(width 0)
@@ -7409,7 +7730,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 186.69) (xy 374.65 207.01)
+			(xy 378.46 186.69) (xy 378.46 207.01)
 		)
 		(stroke
 			(width 0)
@@ -7429,7 +7750,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 242.57) (xy 62.23 242.57)
+			(xy 36.83 242.57) (xy 66.04 242.57)
 		)
 		(stroke
 			(width 0)
@@ -7439,7 +7760,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 247.65) (xy 119.38 247.65)
+			(xy 93.98 247.65) (xy 123.19 247.65)
 		)
 		(stroke
 			(width 0)
@@ -7449,7 +7770,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 201.93) (xy 20.32 201.93)
+			(xy 36.83 201.93) (xy 24.13 201.93)
 		)
 		(stroke
 			(width 0)
@@ -7469,7 +7790,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 283.21) (xy 320.04 283.21)
+			(xy 351.79 283.21) (xy 323.85 283.21)
 		)
 		(stroke
 			(width 0)
@@ -7479,7 +7800,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 194.31) (xy 283.21 194.31)
+			(xy 273.05 194.31) (xy 287.02 194.31)
 		)
 		(stroke
 			(width 0)
@@ -7509,7 +7830,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 214.63) (xy 283.21 214.63)
+			(xy 273.05 214.63) (xy 287.02 214.63)
 		)
 		(stroke
 			(width 0)
@@ -7539,7 +7860,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 262.89) (xy 233.68 262.89)
+			(xy 265.43 262.89) (xy 237.49 262.89)
 		)
 		(stroke
 			(width 0)
@@ -7549,7 +7870,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 242.57) (xy 20.32 262.89)
+			(xy 24.13 242.57) (xy 24.13 262.89)
 		)
 		(stroke
 			(width 0)
@@ -7559,7 +7880,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 186.69) (xy 233.68 186.69)
+			(xy 208.28 186.69) (xy 237.49 186.69)
 		)
 		(stroke
 			(width 0)
@@ -7589,7 +7910,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 186.69) (xy 90.17 186.69)
+			(xy 66.04 186.69) (xy 93.98 186.69)
 		)
 		(stroke
 			(width 0)
@@ -7599,7 +7920,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 234.95) (xy 54.61 234.95)
+			(xy 44.45 234.95) (xy 58.42 234.95)
 		)
 		(stroke
 			(width 0)
@@ -7609,7 +7930,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 227.33) (xy 204.47 227.33)
+			(xy 180.34 227.33) (xy 208.28 227.33)
 		)
 		(stroke
 			(width 0)
@@ -7619,7 +7940,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 267.97) (xy 90.17 267.97)
+			(xy 66.04 267.97) (xy 93.98 267.97)
 		)
 		(stroke
 			(width 0)
@@ -7629,7 +7950,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 222.25) (xy 90.17 222.25)
+			(xy 123.19 222.25) (xy 93.98 222.25)
 		)
 		(stroke
 			(width 0)
@@ -7649,7 +7970,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 262.89) (xy 119.38 262.89)
+			(xy 151.13 262.89) (xy 123.19 262.89)
 		)
 		(stroke
 			(width 0)
@@ -7679,7 +8000,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 214.63) (xy 226.06 214.63)
+			(xy 215.9 214.63) (xy 229.87 214.63)
 		)
 		(stroke
 			(width 0)
@@ -7709,7 +8030,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 207.01) (xy 290.83 207.01)
+			(xy 265.43 207.01) (xy 294.64 207.01)
 		)
 		(stroke
 			(width 0)
@@ -7719,7 +8040,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 255.27) (xy 226.06 255.27)
+			(xy 215.9 255.27) (xy 229.87 255.27)
 		)
 		(stroke
 			(width 0)
@@ -7729,7 +8050,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 186.69) (xy 62.23 186.69)
+			(xy 36.83 186.69) (xy 66.04 186.69)
 		)
 		(stroke
 			(width 0)
@@ -7749,7 +8070,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 207.01) (xy 347.98 207.01)
+			(xy 322.58 207.01) (xy 351.79 207.01)
 		)
 		(stroke
 			(width 0)
@@ -7759,7 +8080,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 283.21) (xy 90.17 283.21)
+			(xy 123.19 283.21) (xy 93.98 283.21)
 		)
 		(stroke
 			(width 0)
@@ -7779,7 +8100,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 227.33) (xy 261.62 227.33)
+			(xy 237.49 227.33) (xy 265.43 227.33)
 		)
 		(stroke
 			(width 0)
@@ -7799,7 +8120,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 262.89) (xy 20.32 283.21)
+			(xy 24.13 262.89) (xy 24.13 283.21)
 		)
 		(stroke
 			(width 0)
@@ -7849,7 +8170,7 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 275.59) (xy 340.36 275.59)
+			(xy 331.47 275.59) (xy 344.17 275.59)
 		)
 		(stroke
 			(width 0)
@@ -7879,7 +8200,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 265.43) (xy 25.4 275.59)
+			(xy 29.21 265.43) (xy 29.21 275.59)
 		)
 		(stroke
 			(width 0)
@@ -7889,7 +8210,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 255.27) (xy 139.7 255.27)
+			(xy 130.81 255.27) (xy 143.51 255.27)
 		)
 		(stroke
 			(width 0)
@@ -7899,7 +8220,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 222.25) (xy 318.77 222.25)
+			(xy 351.79 222.25) (xy 322.58 222.25)
 		)
 		(stroke
 			(width 0)
@@ -7909,7 +8230,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 194.31) (xy 226.06 194.31)
+			(xy 215.9 194.31) (xy 229.87 194.31)
 		)
 		(stroke
 			(width 0)
@@ -7939,7 +8260,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 234.95) (xy 82.55 234.95)
+			(xy 73.66 234.95) (xy 86.36 234.95)
 		)
 		(stroke
 			(width 0)
@@ -7959,7 +8280,7 @@
 	)
 	(wire
 		(pts
-			(xy 320.04 267.97) (xy 347.98 267.97)
+			(xy 323.85 267.97) (xy 351.79 267.97)
 		)
 		(stroke
 			(width 0)
@@ -7969,7 +8290,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 222.25) (xy 119.38 222.25)
+			(xy 151.13 222.25) (xy 123.19 222.25)
 		)
 		(stroke
 			(width 0)
@@ -7989,7 +8310,7 @@
 	)
 	(wire
 		(pts
-			(xy 269.24 255.27) (xy 283.21 255.27)
+			(xy 273.05 255.27) (xy 287.02 255.27)
 		)
 		(stroke
 			(width 0)
@@ -8019,7 +8340,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 262.89) (xy 62.23 262.89)
+			(xy 93.98 262.89) (xy 66.04 262.89)
 		)
 		(stroke
 			(width 0)
@@ -8039,7 +8360,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 182.88) (xy 374.65 186.69)
+			(xy 378.46 182.88) (xy 378.46 186.69)
 		)
 		(stroke
 			(width 0)
@@ -8059,7 +8380,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 245.11) (xy 25.4 255.27)
+			(xy 29.21 245.11) (xy 29.21 255.27)
 		)
 		(stroke
 			(width 0)
@@ -8069,7 +8390,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 283.21) (xy 190.5 283.21)
+			(xy 151.13 283.21) (xy 194.31 283.21)
 		)
 		(stroke
 			(width 0)
@@ -8129,7 +8450,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 247.65) (xy 318.77 247.65)
+			(xy 294.64 247.65) (xy 322.58 247.65)
 		)
 		(stroke
 			(width 0)
@@ -8149,7 +8470,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 275.59) (xy 283.21 275.59)
+			(xy 274.32 275.59) (xy 287.02 275.59)
 		)
 		(stroke
 			(width 0)
@@ -8159,7 +8480,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 242.57) (xy 33.02 242.57)
+			(xy 24.13 242.57) (xy 36.83 242.57)
 		)
 		(stroke
 			(width 0)
@@ -8169,7 +8490,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 234.95) (xy 196.85 234.95)
+			(xy 187.96 234.95) (xy 200.66 234.95)
 		)
 		(stroke
 			(width 0)
@@ -8179,7 +8500,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 242.57) (xy 204.47 242.57)
+			(xy 180.34 242.57) (xy 208.28 242.57)
 		)
 		(stroke
 			(width 0)
@@ -8189,7 +8510,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 201.93) (xy 261.62 201.93)
+			(xy 294.64 201.93) (xy 265.43 201.93)
 		)
 		(stroke
 			(width 0)
@@ -8199,7 +8520,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 234.95) (xy 355.6 245.11)
+			(xy 359.41 234.95) (xy 359.41 245.11)
 		)
 		(stroke
 			(width 0)
@@ -8209,7 +8530,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 255.27) (xy 340.36 255.27)
+			(xy 330.2 255.27) (xy 344.17 255.27)
 		)
 		(stroke
 			(width 0)
@@ -8229,7 +8550,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 207.01) (xy 233.68 207.01)
+			(xy 208.28 207.01) (xy 237.49 207.01)
 		)
 		(stroke
 			(width 0)
@@ -8239,7 +8560,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 234.95) (xy 226.06 234.95)
+			(xy 215.9 234.95) (xy 229.87 234.95)
 		)
 		(stroke
 			(width 0)
@@ -8249,7 +8570,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 255.27) (xy 254 255.27)
+			(xy 245.11 255.27) (xy 257.81 255.27)
 		)
 		(stroke
 			(width 0)
@@ -8259,7 +8580,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 214.63) (xy 355.6 224.79)
+			(xy 359.41 214.63) (xy 359.41 224.79)
 		)
 		(stroke
 			(width 0)
@@ -8279,7 +8600,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 207.01) (xy 147.32 207.01)
+			(xy 123.19 207.01) (xy 151.13 207.01)
 		)
 		(stroke
 			(width 0)
@@ -8299,7 +8620,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 262.89) (xy 204.47 262.89)
+			(xy 237.49 262.89) (xy 208.28 262.89)
 		)
 		(stroke
 			(width 0)
@@ -8309,7 +8630,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 267.97) (xy 262.89 267.97)
+			(xy 237.49 267.97) (xy 266.7 267.97)
 		)
 		(stroke
 			(width 0)
@@ -8329,7 +8650,7 @@
 	)
 	(wire
 		(pts
-			(xy 25.4 224.79) (xy 25.4 234.95)
+			(xy 29.21 224.79) (xy 29.21 234.95)
 		)
 		(stroke
 			(width 0)
@@ -8349,7 +8670,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 222.25) (xy 204.47 222.25)
+			(xy 237.49 222.25) (xy 208.28 222.25)
 		)
 		(stroke
 			(width 0)
@@ -8359,7 +8680,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 227.33) (xy 318.77 227.33)
+			(xy 294.64 227.33) (xy 322.58 227.33)
 		)
 		(stroke
 			(width 0)
@@ -8389,7 +8710,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 247.65) (xy 90.17 247.65)
+			(xy 66.04 247.65) (xy 93.98 247.65)
 		)
 		(stroke
 			(width 0)
@@ -8399,7 +8720,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 194.31) (xy 82.55 194.31)
+			(xy 73.66 194.31) (xy 86.36 194.31)
 		)
 		(stroke
 			(width 0)
@@ -8469,7 +8790,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 283.21) (xy 119.38 283.21)
+			(xy 151.13 283.21) (xy 123.19 283.21)
 		)
 		(stroke
 			(width 0)
@@ -8499,7 +8820,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 201.93) (xy 62.23 201.93)
+			(xy 93.98 201.93) (xy 66.04 201.93)
 		)
 		(stroke
 			(width 0)
@@ -8539,7 +8860,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 255.27) (xy 54.61 255.27)
+			(xy 44.45 255.27) (xy 58.42 255.27)
 		)
 		(stroke
 			(width 0)
@@ -8549,7 +8870,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 275.59) (xy 139.7 275.59)
+			(xy 130.81 275.59) (xy 143.51 275.59)
 		)
 		(stroke
 			(width 0)
@@ -8559,7 +8880,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 247.65) (xy 204.47 247.65)
+			(xy 180.34 247.65) (xy 208.28 247.65)
 		)
 		(stroke
 			(width 0)
@@ -8569,7 +8890,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 255.27) (xy 196.85 255.27)
+			(xy 187.96 255.27) (xy 200.66 255.27)
 		)
 		(stroke
 			(width 0)
@@ -8609,7 +8930,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 227.33) (xy 62.23 227.33)
+			(xy 36.83 227.33) (xy 66.04 227.33)
 		)
 		(stroke
 			(width 0)
@@ -8619,7 +8940,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 267.97) (xy 320.04 267.97)
+			(xy 294.64 267.97) (xy 323.85 267.97)
 		)
 		(stroke
 			(width 0)
@@ -8739,7 +9060,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 227.33) (xy 90.17 227.33)
+			(xy 66.04 227.33) (xy 93.98 227.33)
 		)
 		(stroke
 			(width 0)
@@ -8759,7 +9080,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 222.25) (xy 20.32 242.57)
+			(xy 24.13 222.25) (xy 24.13 242.57)
 		)
 		(stroke
 			(width 0)
@@ -8769,7 +9090,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 262.89) (xy 261.62 262.89)
+			(xy 294.64 262.89) (xy 265.43 262.89)
 		)
 		(stroke
 			(width 0)
@@ -8779,7 +9100,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 247.65) (xy 62.23 247.65)
+			(xy 36.83 247.65) (xy 66.04 247.65)
 		)
 		(stroke
 			(width 0)
@@ -8809,7 +9130,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 227.33) (xy 119.38 227.33)
+			(xy 93.98 227.33) (xy 123.19 227.33)
 		)
 		(stroke
 			(width 0)
@@ -8869,7 +9190,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 214.63) (xy 111.76 214.63)
+			(xy 101.6 214.63) (xy 115.57 214.63)
 		)
 		(stroke
 			(width 0)
@@ -8919,7 +9240,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 245.11) (xy 25.4 245.11)
+			(xy 359.41 245.11) (xy 29.21 245.11)
 		)
 		(stroke
 			(width 0)
@@ -8939,7 +9260,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 201.93) (xy 33.02 201.93)
+			(xy 66.04 201.93) (xy 36.83 201.93)
 		)
 		(stroke
 			(width 0)
@@ -8959,7 +9280,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 242.57) (xy 119.38 242.57)
+			(xy 93.98 242.57) (xy 123.19 242.57)
 		)
 		(stroke
 			(width 0)
@@ -8999,7 +9320,7 @@
 	)
 	(wire
 		(pts
-			(xy 347.98 201.93) (xy 318.77 201.93)
+			(xy 351.79 201.93) (xy 322.58 201.93)
 		)
 		(stroke
 			(width 0)
@@ -9099,7 +9420,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 214.63) (xy 54.61 214.63)
+			(xy 44.45 214.63) (xy 58.42 214.63)
 		)
 		(stroke
 			(width 0)
@@ -9109,7 +9430,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 186.69) (xy 176.53 186.69)
+			(xy 151.13 186.69) (xy 180.34 186.69)
 		)
 		(stroke
 			(width 0)
@@ -9119,7 +9440,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 222.25) (xy 20.32 222.25)
+			(xy 36.83 222.25) (xy 24.13 222.25)
 		)
 		(stroke
 			(width 0)
@@ -9139,7 +9460,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 201.93) (xy 176.53 201.93)
+			(xy 208.28 201.93) (xy 180.34 201.93)
 		)
 		(stroke
 			(width 0)
@@ -9159,7 +9480,7 @@
 	)
 	(wire
 		(pts
-			(xy 298.45 194.31) (xy 311.15 194.31)
+			(xy 302.26 194.31) (xy 314.96 194.31)
 		)
 		(stroke
 			(width 0)
@@ -9289,7 +9610,7 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 234.95) (xy 111.76 234.95)
+			(xy 101.6 234.95) (xy 115.57 234.95)
 		)
 		(stroke
 			(width 0)
@@ -9369,7 +9690,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 242.57) (xy 290.83 242.57)
+			(xy 265.43 242.57) (xy 294.64 242.57)
 		)
 		(stroke
 			(width 0)
@@ -9389,7 +9710,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 234.95) (xy 254 234.95)
+			(xy 245.11 234.95) (xy 257.81 234.95)
 		)
 		(stroke
 			(width 0)
@@ -9409,7 +9730,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 242.57) (xy 90.17 242.57)
+			(xy 66.04 242.57) (xy 93.98 242.57)
 		)
 		(stroke
 			(width 0)
@@ -9419,7 +9740,7 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 214.63) (xy 254 214.63)
+			(xy 245.11 214.63) (xy 257.81 214.63)
 		)
 		(stroke
 			(width 0)
@@ -9429,7 +9750,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 224.79) (xy 25.4 224.79)
+			(xy 359.41 224.79) (xy 29.21 224.79)
 		)
 		(stroke
 			(width 0)
@@ -9439,7 +9760,7 @@
 	)
 	(wire
 		(pts
-			(xy 290.83 222.25) (xy 261.62 222.25)
+			(xy 294.64 222.25) (xy 265.43 222.25)
 		)
 		(stroke
 			(width 0)
@@ -9449,7 +9770,7 @@
 	)
 	(wire
 		(pts
-			(xy 318.77 262.89) (xy 290.83 262.89)
+			(xy 322.58 262.89) (xy 294.64 262.89)
 		)
 		(stroke
 			(width 0)
@@ -9459,7 +9780,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 204.47) (xy 25.4 204.47)
+			(xy 359.41 204.47) (xy 29.21 204.47)
 		)
 		(stroke
 			(width 0)
@@ -9479,7 +9800,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 222.25) (xy 147.32 222.25)
+			(xy 180.34 222.25) (xy 151.13 222.25)
 		)
 		(stroke
 			(width 0)
@@ -9489,7 +9810,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 262.89) (xy 90.17 262.89)
+			(xy 123.19 262.89) (xy 93.98 262.89)
 		)
 		(stroke
 			(width 0)
@@ -9509,7 +9830,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 227.33) (xy 233.68 227.33)
+			(xy 208.28 227.33) (xy 237.49 227.33)
 		)
 		(stroke
 			(width 0)
@@ -9519,7 +9840,7 @@
 	)
 	(wire
 		(pts
-			(xy 127 234.95) (xy 139.7 234.95)
+			(xy 130.81 234.95) (xy 143.51 234.95)
 		)
 		(stroke
 			(width 0)
@@ -9529,7 +9850,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 234.95) (xy 340.36 234.95)
+			(xy 330.2 234.95) (xy 344.17 234.95)
 		)
 		(stroke
 			(width 0)
@@ -9589,7 +9910,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 262.89) (xy 20.32 262.89)
+			(xy 36.83 262.89) (xy 24.13 262.89)
 		)
 		(stroke
 			(width 0)
@@ -9599,13 +9920,33 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 275.59) (xy 182.88 275.59)
+			(xy 519.43 139.7) (xy 519.43 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f852d7c1-dc48-47bd-a457-e9d10b1b6107")
+	)
+	(wire
+		(pts
+			(xy 158.75 275.59) (xy 186.69 275.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f86ae5ba-e016-439f-9170-94a5eacd62cc")
+	)
+	(wire
+		(pts
+			(xy 549.91 139.7) (xy 549.91 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8e94a2b-fb2d-422c-8de9-c9e0882659e2")
 	)
 	(wire
 		(pts
@@ -9619,7 +9960,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 242.57) (xy 261.62 242.57)
+			(xy 237.49 242.57) (xy 265.43 242.57)
 		)
 		(stroke
 			(width 0)
@@ -9669,7 +10010,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 222.25) (xy 33.02 222.25)
+			(xy 66.04 222.25) (xy 36.83 222.25)
 		)
 		(stroke
 			(width 0)
@@ -9679,7 +10020,7 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 186.69) (xy 290.83 186.69)
+			(xy 265.43 186.69) (xy 294.64 186.69)
 		)
 		(stroke
 			(width 0)
@@ -9699,7 +10040,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 207.01) (xy 119.38 207.01)
+			(xy 93.98 207.01) (xy 123.19 207.01)
 		)
 		(stroke
 			(width 0)
@@ -9709,7 +10050,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 283.21) (xy 233.68 283.21)
+			(xy 194.31 283.21) (xy 237.49 283.21)
 		)
 		(stroke
 			(width 0)
@@ -9739,7 +10080,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 267.97) (xy 190.5 267.97)
+			(xy 151.13 267.97) (xy 194.31 267.97)
 		)
 		(stroke
 			(width 0)
@@ -15600,7 +15941,25 @@
 			"ZgBIADIANwBUAGYAdgBQAHoAMQArAC8AZQBiAHQAdQAzAGQAdgBuAHoAOAA5AEgAdgBOAFoATwBN"
 			"AEIAWgA5AGoAaQB6ADkAOQB6AEUAUQBFAGwAcwBWAGMAYgBVAEwAUABsADIAeQBRAHEAUgA4AHgA"
 			"VAB0AGsAagB3AFYAWQBLADAAOQBLAG4AcQB5AEoATAAyADcAUwBwAG8ASwBYADgAMQBhAFMAaQBl"
-			"AFcAVABJADIASQBFAA=="
+			"AFcAVABJADIASQBFAHoAUgB5AHgAVABSAGwARgBwADMAbwAwAEwAMgBRAGEANwBFAEwARgBVAFMA"
+			"dwBSAGoATwBhAFoARwBVAGwANQA2AEUAZQBvAG8AVgBNAEoAbABrAGoATQBBAE8AMwBoACsAMwB4"
+			"ADgAZQBIAGgAdAByAEUAcQBqADEAawBBAE0AMQBDAFQANABCAFEAQwBKADUATQBoAEgAKwBzADAA"
+			"awA2AGIAVgBKAEgAawBWAEQASwBVAGsAUgA1AEcAMAB6AHoANABDAE0AVwBKAHcARABHADUAVgBF"
+			"AGsAWQBVAHMASQAzAEsAWQAyAHIAeQBHAEIAQwB6AFoAaQByAE4AbQBSAEcATQBSAEcANwBiAHoA"
+			"YQBDAC8AawBKAGwAagBEAEQAVwBiAEgAQwBNAGUAYgBnAC8AYgB3ADMAWQBiAE0AYgBhAHgAUgBT"
+			"AEIARwBlAEoAYQB2AG0AVABIAEsANgBnAEsARABpAEwAcQBoAEoAcABNAHoAagB6AHEATwBZAEMA"
+			"UQBIAGMAaABJADEAcQBLAEYAZQBzADcAUABxAHEASgByADIAeABOAFQAYwBkADAAbgBVAHgAbgBI"
+			"AGsATQBhAEwAbQBuAEIAegBiADcAZQBIAHgANgBlAG4AagBqAHgAOQAvAEwARwBRAFQARgBMAEMA"
+			"UABnAHkASgBWAGQAWQA0AGkAQgB0AFUAbwBRADQAVQAyAFEAVQBSAGsARQBCAEUAVgBwAGUASgBq"
+			"AEkAKwBoAFUALwBsAGkAbAB5AG4AbgBjAEwARwAyAHkAQQB6AGoAUgBXAFIAdABOAGUAaQBXAGoA"
+			"QQB1AFgAVwB3AGwAVQB1AGkAVwBSAFcAOQBwADYARQBJAEkAWQBhAHkAVABOAFQAMABiAEYAUwBq"
+			"AG8AdQBjAG4AWgB6AE0ASABEAGwASABVAGIAVQAvADMAWgBBAFYAawBRAEYAbQBJAGsARQBrAHoA"
+			"MgBZADcAeQByAE4AMgBxAHoAaQBwAFMAZQBlADEAVwBHAE4AMABYAGsAaQBoADAANgBzAGoAdQB3"
+			"ADkAOABMAC8AQQBnAG4ASwBOAHIAMAAwAFEAegBIAFkAdgBKAE0ASQA2AGgAeABnAEEAUQBpAHAA"
+			"SQB3AEEANgB6AGcAcABhAHgARQBUAEUATgBSAFUAVwB2ADUAKwBWAFUAcwBqAGQAZABMAEsAcQBh"
+			"AGQAbwBvAGkAagBlAG8AWgBTAEkAUQByAFoATQB3AGYAcwBHAHAAawAvAE4ANAAwAHEAUQBpAFcA"
+			"VwBKADAAMgBiAHUAMwBKAEsAbwBXAGsAbwArAHkAcQB3AFAAMQBuAFcAbgBrAFQAcABUAEYAcQBi"
+			"AE4AZgB2AE8AcQBsAA=="
 		)
 	)
 	(image
@@ -36162,6 +36521,24 @@
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
 			"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=="
 		)
 	)
@@ -36209,6 +36586,28 @@
 			)
 		)
 	)
+	(global_label "row3"
+		(shape input)
+		(at 334.01 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "03c415e2-56ee-4295-8658-367248ff6c9f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 341.4704 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ec_row0"
 		(shape input)
 		(at 288.29 83.82 180)
@@ -36244,6 +36643,28 @@
 		(uuid "0ca51402-b51c-4d87-b3e6-b67717d3b4fd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 535.94 24.5316 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "led_data_5v"
+		(shape output)
+		(at 557.53 152.4 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0e6b1e91-1ba1-47ab-b5ed-0a55905302a9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 571.703 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36320,28 +36741,6 @@
 		)
 		(property "Netclass" ""
 			(at 96.1708 146.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "led_data"
-		(shape input)
-		(at 25.4 194.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "153bac57-257a-4de3-8302-18d66c842043")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.3717 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36441,22 +36840,22 @@
 	)
 	(global_label "col0"
 		(shape output)
-		(at 273.05 128.27 180)
+		(at 334.01 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "45dd431f-2801-42ac-9758-ff52b5f3eeba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.9525 128.27 0)
+			(at 341.1075 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -36507,22 +36906,22 @@
 	)
 	(global_label "col2"
 		(shape output)
-		(at 273.05 123.19 180)
+		(at 334.01 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "565b10b2-c7d2-4046-9bef-5fd7857b3cd3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.9525 123.19 0)
+			(at 341.1075 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -36703,7 +37102,7 @@
 			)
 		)
 	)
-	(global_label "led_data"
+	(global_label "led_data_3v3"
 		(shape input)
 		(at 334.01 119.38 0)
 		(fields_autoplaced yes)
@@ -36715,7 +37114,7 @@
 		)
 		(uuid "8cd01a2b-d691-4493-aaaf-79f9d79af3dd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 345.0383 119.38 0)
+			(at 349.3925 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -36727,22 +37126,22 @@
 	)
 	(global_label "col3"
 		(shape output)
-		(at 273.05 120.65 180)
+		(at 334.01 101.6 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "92728bcd-18a0-43f1-828a-2cd4a4c65429")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.9525 120.65 0)
+			(at 341.1075 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -36769,24 +37168,46 @@
 			)
 		)
 	)
-	(global_label "col1"
-		(shape output)
-		(at 273.05 125.73 180)
+	(global_label "row2"
+		(shape input)
+		(at 334.01 91.44 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "9c7deaba-037f-4b5b-9df0-7faeb27d8271")
+		(uuid "987791c3-0a42-49cd-a84a-156bb62d4441")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.9525 125.73 0)
+			(at 341.4704 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "col1"
+		(shape output)
+		(at 334.01 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9c7deaba-037f-4b5b-9df0-7faeb27d8271")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 341.1075 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -36901,6 +37322,28 @@
 			)
 		)
 	)
+	(global_label "row0"
+		(shape input)
+		(at 334.01 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a542925a-c456-40de-ba76-7515614422d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 341.4704 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "row1"
 		(shape output)
 		(at 229.87 78.74 0)
@@ -36914,28 +37357,6 @@
 		(uuid "a5940590-4f65-4637-bf1e-c256d564fb90")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 237.3304 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "row2"
-		(shape input)
-		(at 334.01 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b05fb355-d601-4fb3-9108-61b294567a61")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 341.4704 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37121,50 +37542,6 @@
 			)
 		)
 	)
-	(global_label "row3"
-		(shape input)
-		(at 334.01 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c842b95e-7800-4942-8553-84b069ee53e0")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 341.4704 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "row4"
-		(shape input)
-		(at 334.01 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cac3017b-f2e0-403c-aa97-7f6b4a502dfc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 341.4704 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "ec2_a"
 		(shape input)
 		(at 525.78 99.06 180)
@@ -37183,28 +37560,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "row0"
-		(shape input)
-		(at 334.01 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d75d772c-3b74-4bf3-93af-867942f27dab")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 341.4704 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -37253,6 +37608,50 @@
 			)
 		)
 	)
+	(global_label "led_data_5v"
+		(shape input)
+		(at 29.21 194.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e3f7f947-feff-45bd-9c59-703a31a6a8ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 15.037 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "row1"
+		(shape input)
+		(at 334.01 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e778c5b9-85e7-4cab-aaf7-f25463d39aa7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 341.4704 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "ec_col0"
 		(shape output)
 		(at 288.29 88.9 180)
@@ -37275,9 +37674,9 @@
 			)
 		)
 	)
-	(global_label "row1"
+	(global_label "row4"
 		(shape input)
-		(at 334.01 114.3 0)
+		(at 334.01 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -37285,14 +37684,36 @@
 			)
 			(justify left)
 		)
-		(uuid "f7b88117-dade-41a3-ab15-7078369949a8")
+		(uuid "eb5d2289-7324-46da-8867-7bed4f1daadd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 341.4704 114.3 0)
+			(at 341.4704 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "led_data_3v3"
+		(shape input)
+		(at 537.21 152.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f0d464eb-a239-439b-a104-e270cf2eb6fd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 521.8275 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -37321,32 +37742,32 @@
 	)
 	(global_label "col4"
 		(shape output)
-		(at 273.05 118.11 180)
+		(at 334.01 99.06 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "f99d5361-b7e0-4289-a25e-d598bd6b29a6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.9525 118.11 0)
+			(at 341.1075 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 		(property "Netclass" ""
-			(at 273.05 120.3008 0)
+			(at 334.01 101.2508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -37445,7 +37866,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 262.89 275.59 0)
+		(at 266.7 275.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37454,7 +37875,7 @@
 		(fields_autoplaced yes)
 		(uuid "00f14870-b287-4899-a505-f386f21f7597")
 		(property "Reference" "LED56"
-			(at 276.86 269.1698 0)
+			(at 280.67 269.1698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37462,7 +37883,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 276.86 271.7098 0)
+			(at 280.67 271.7098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37470,7 +37891,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 262.89 275.59 0)
+			(at 266.7 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37479,7 +37900,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 262.89 275.59 0)
+			(at 266.7 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37488,7 +37909,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 262.89 275.59 0)
+			(at 266.7 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37589,7 +38010,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 261.62 214.63 0)
+		(at 265.43 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37598,7 +38019,7 @@
 		(fields_autoplaced yes)
 		(uuid "04f9787b-efc1-468a-8906-00ec5936d5bc")
 		(property "Reference" "LED21"
-			(at 275.59 208.2098 0)
+			(at 279.4 208.2098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37606,7 +38027,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 275.59 210.7498 0)
+			(at 279.4 210.7498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37614,7 +38035,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 261.62 214.63 0)
+			(at 265.43 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37623,7 +38044,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 214.63 0)
+			(at 265.43 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37632,7 +38053,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 261.62 214.63 0)
+			(at 265.43 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37891,7 +38312,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 176.53 214.63 0)
+		(at 180.34 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37900,7 +38321,7 @@
 		(fields_autoplaced yes)
 		(uuid "082b69f0-d0da-4262-8e8b-f55abeee31f4")
 		(property "Reference" "LED18"
-			(at 190.5 208.2098 0)
+			(at 194.31 208.2098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37908,7 +38329,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 190.5 210.7498 0)
+			(at 194.31 210.7498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37916,7 +38337,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 176.53 214.63 0)
+			(at 180.34 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37925,7 +38346,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 214.63 0)
+			(at 180.34 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37934,7 +38355,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 176.53 214.63 0)
+			(at 180.34 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37965,7 +38386,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 20.32 288.29 0)
+		(at 24.13 288.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -37974,7 +38395,7 @@
 		(fields_autoplaced yes)
 		(uuid "092662ec-5337-4957-8b34-3ceb54036ace")
 		(property "Reference" "#PWR01"
-			(at 20.32 294.64 0)
+			(at 24.13 294.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37983,7 +38404,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 20.32 293.37 0)
+			(at 24.13 293.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37991,7 +38412,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 288.29 0)
+			(at 24.13 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38000,7 +38421,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 288.29 0)
+			(at 24.13 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38009,7 +38430,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 20.32 288.29 0)
+			(at 24.13 288.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38365,7 +38786,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 261.62 194.31 0)
+		(at 265.43 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -38374,7 +38795,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e4b1100-79e4-44c1-a1df-7e9c6630da7f")
 		(property "Reference" "LED9"
-			(at 275.59 187.8898 0)
+			(at 279.4 187.8898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38382,7 +38803,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 275.59 190.4298 0)
+			(at 279.4 190.4298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38390,7 +38811,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 261.62 194.31 0)
+			(at 265.43 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38399,7 +38820,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 194.31 0)
+			(at 265.43 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38408,7 +38829,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 261.62 194.31 0)
+			(at 265.43 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38509,7 +38930,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 147.32 275.59 0)
+		(at 151.13 275.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -38518,7 +38939,7 @@
 		(fields_autoplaced yes)
 		(uuid "1040894b-6c11-4a3c-a59c-9d4cc8830c3e")
 		(property "Reference" "LED53"
-			(at 161.29 269.1698 0)
+			(at 165.1 269.1698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38526,7 +38947,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 161.29 271.7098 0)
+			(at 165.1 271.7098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38534,7 +38955,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 147.32 275.59 0)
+			(at 151.13 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38543,7 +38964,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 275.59 0)
+			(at 151.13 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38552,7 +38973,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 147.32 275.59 0)
+			(at 151.13 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38827,7 +39248,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 190.5 275.59 0)
+		(at 194.31 275.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -38836,7 +39257,7 @@
 		(fields_autoplaced yes)
 		(uuid "119a603d-8397-4397-a500-74daafe9d563")
 		(property "Reference" "LED54"
-			(at 204.47 269.1698 0)
+			(at 208.28 269.1698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38844,7 +39265,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 204.47 271.7098 0)
+			(at 208.28 271.7098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38852,7 +39273,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 190.5 275.59 0)
+			(at 194.31 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38861,7 +39282,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 275.59 0)
+			(at 194.31 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -38870,7 +39291,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 190.5 275.59 0)
+			(at 194.31 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39059,7 +39480,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 90.17 214.63 0)
+		(at 93.98 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -39068,7 +39489,7 @@
 		(fields_autoplaced yes)
 		(uuid "134af08d-21f9-4cea-987f-87e0cf031cb7")
 		(property "Reference" "LED15"
-			(at 104.14 208.2098 0)
+			(at 107.95 208.2098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39076,7 +39497,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 104.14 210.7498 0)
+			(at 107.95 210.7498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39084,7 +39505,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 90.17 214.63 0)
+			(at 93.98 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39093,7 +39514,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 214.63 0)
+			(at 93.98 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -39102,7 +39523,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 90.17 214.63 0)
+			(at 93.98 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40012,7 +40433,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 347.98 234.95 0)
+		(at 351.79 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40021,7 +40442,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e456e86-1f3d-48ad-b7d0-e904b76dc8d2")
 		(property "Reference" "LED36"
-			(at 361.95 228.5298 0)
+			(at 365.76 228.5298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40029,7 +40450,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 361.95 231.0698 0)
+			(at 365.76 231.0698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40037,7 +40458,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 347.98 234.95 0)
+			(at 351.79 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40046,7 +40467,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 347.98 234.95 0)
+			(at 351.79 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40055,7 +40476,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 347.98 234.95 0)
+			(at 351.79 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40292,7 +40713,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 176.53 194.31 0)
+		(at 180.34 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40301,7 +40722,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ffe2b71-3855-438c-87e2-11630614bc87")
 		(property "Reference" "LED6"
-			(at 190.5 187.8898 0)
+			(at 194.31 187.8898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40309,7 +40730,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 190.5 190.4298 0)
+			(at 194.31 190.4298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40317,7 +40738,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 176.53 194.31 0)
+			(at 180.34 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40326,7 +40747,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 194.31 0)
+			(at 180.34 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40335,7 +40756,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 176.53 194.31 0)
+			(at 180.34 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40436,7 +40857,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 318.77 255.27 0)
+		(at 322.58 255.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40445,7 +40866,7 @@
 		(fields_autoplaced yes)
 		(uuid "22851261-4920-438e-a964-192c904e603d")
 		(property "Reference" "LED47"
-			(at 332.74 248.8498 0)
+			(at 336.55 248.8498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40453,7 +40874,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 332.74 251.3898 0)
+			(at 336.55 251.3898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40461,7 +40882,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 318.77 255.27 0)
+			(at 322.58 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40470,7 +40891,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 318.77 255.27 0)
+			(at 322.58 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40479,7 +40900,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 318.77 255.27 0)
+			(at 322.58 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40668,7 +41089,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 233.68 194.31 0)
+		(at 237.49 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -40677,7 +41098,7 @@
 		(fields_autoplaced yes)
 		(uuid "27a43d5d-3e00-457d-898d-e9f54f1ec39d")
 		(property "Reference" "LED8"
-			(at 247.65 187.8898 0)
+			(at 251.46 187.8898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40685,7 +41106,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 247.65 190.4298 0)
+			(at 251.46 190.4298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40693,7 +41114,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 233.68 194.31 0)
+			(at 237.49 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40702,7 +41123,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 194.31 0)
+			(at 237.49 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40711,7 +41132,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 233.68 194.31 0)
+			(at 237.49 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40865,6 +41286,72 @@
 			(project ""
 				(path "/63f5a0a7-4058-42ed-a215-6578acb070e1"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 547.37 162.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29d3e5db-8506-4995-814b-e9dd91d01efd")
+		(property "Reference" "#PWR011"
+			(at 547.37 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 547.37 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 547.37 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 547.37 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 547.37 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec4bb2c9-e37d-4cff-a180-b29b486fb57e")
+		)
+		(instances
+			(project ""
+				(path "/63f5a0a7-4058-42ed-a215-6578acb070e1"
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -41323,7 +41810,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 33.02 275.59 0)
+		(at 36.83 275.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41332,7 +41819,7 @@
 		(fields_autoplaced yes)
 		(uuid "2f1ec4eb-2e22-4520-960f-7aedd60c7ddc")
 		(property "Reference" "LED49"
-			(at 46.99 269.1698 0)
+			(at 50.8 269.1698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41340,7 +41827,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 46.99 271.7098 0)
+			(at 50.8 271.7098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41348,7 +41835,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 33.02 275.59 0)
+			(at 36.83 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41357,7 +41844,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 275.59 0)
+			(at 36.83 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41366,7 +41853,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 33.02 275.59 0)
+			(at 36.83 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41485,7 +41972,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 261.62 255.27 0)
+		(at 265.43 255.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41494,7 +41981,7 @@
 		(fields_autoplaced yes)
 		(uuid "2fe1d10f-7942-47c0-af9e-940e583cfc34")
 		(property "Reference" "LED45"
-			(at 275.59 248.8498 0)
+			(at 279.4 248.8498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41502,7 +41989,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 275.59 251.3898 0)
+			(at 279.4 251.3898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41510,7 +41997,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 261.62 255.27 0)
+			(at 265.43 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41519,7 +42006,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 255.27 0)
+			(at 265.43 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41528,7 +42015,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 261.62 255.27 0)
+			(at 265.43 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41559,7 +42046,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 204.47 234.95 0)
+		(at 208.28 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -41568,7 +42055,7 @@
 		(fields_autoplaced yes)
 		(uuid "304fca49-4ac4-406d-b694-8925d95d2cfd")
 		(property "Reference" "LED31"
-			(at 218.44 228.5298 0)
+			(at 222.25 228.5298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41576,7 +42063,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 218.44 231.0698 0)
+			(at 222.25 231.0698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41584,7 +42071,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 204.47 234.95 0)
+			(at 208.28 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41593,7 +42080,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 234.95 0)
+			(at 208.28 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41602,7 +42089,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 204.47 234.95 0)
+			(at 208.28 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42015,7 +42502,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 233.68 234.95 0)
+		(at 237.49 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42024,7 +42511,7 @@
 		(fields_autoplaced yes)
 		(uuid "37a31786-d5c7-499f-8699-62c2247e5812")
 		(property "Reference" "LED32"
-			(at 247.65 228.5298 0)
+			(at 251.46 228.5298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42032,7 +42519,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 247.65 231.0698 0)
+			(at 251.46 231.0698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42040,7 +42527,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 233.68 234.95 0)
+			(at 237.49 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42049,7 +42536,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 234.95 0)
+			(at 237.49 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42058,7 +42545,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 233.68 234.95 0)
+			(at 237.49 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42177,7 +42664,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 90.17 234.95 0)
+		(at 93.98 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42186,7 +42673,7 @@
 		(fields_autoplaced yes)
 		(uuid "393fa5ac-af34-418c-bb5d-5a2e47891208")
 		(property "Reference" "LED27"
-			(at 104.14 228.5298 0)
+			(at 107.95 228.5298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42194,7 +42681,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 104.14 231.0698 0)
+			(at 107.95 231.0698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42202,7 +42689,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 90.17 234.95 0)
+			(at 93.98 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42211,7 +42698,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 234.95 0)
+			(at 93.98 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42220,7 +42707,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 90.17 234.95 0)
+			(at 93.98 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42527,7 +43014,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 90.17 194.31 0)
+		(at 93.98 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -42536,7 +43023,7 @@
 		(fields_autoplaced yes)
 		(uuid "3c240d0b-2926-4acb-a13b-a7aa57d57855")
 		(property "Reference" "LED3"
-			(at 104.14 187.8898 0)
+			(at 107.95 187.8898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42544,7 +43031,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 104.14 190.4298 0)
+			(at 107.95 190.4298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42552,7 +43039,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 90.17 194.31 0)
+			(at 93.98 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42561,7 +43048,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 194.31 0)
+			(at 93.98 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -42570,7 +43057,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 90.17 194.31 0)
+			(at 93.98 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43099,7 +43586,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 204.47 194.31 0)
+		(at 208.28 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -43108,7 +43595,7 @@
 		(fields_autoplaced yes)
 		(uuid "46dbf801-2f5d-4528-8646-7a21e85e34e8")
 		(property "Reference" "LED7"
-			(at 218.44 187.8898 0)
+			(at 222.25 187.8898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43116,7 +43603,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 218.44 190.4298 0)
+			(at 222.25 190.4298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43124,7 +43611,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 204.47 194.31 0)
+			(at 208.28 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43133,7 +43620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 194.31 0)
+			(at 208.28 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43142,7 +43629,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 204.47 194.31 0)
+			(at 208.28 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43329,7 +43816,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 233.68 214.63 0)
+		(at 237.49 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -43338,7 +43825,7 @@
 		(fields_autoplaced yes)
 		(uuid "48deef6a-692c-4749-910b-b87d9bdd8a4d")
 		(property "Reference" "LED20"
-			(at 247.65 208.2098 0)
+			(at 251.46 208.2098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43346,7 +43833,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 247.65 210.7498 0)
+			(at 251.46 210.7498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43354,7 +43841,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 233.68 214.63 0)
+			(at 237.49 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43363,7 +43850,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 214.63 0)
+			(at 237.49 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43372,7 +43859,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 233.68 214.63 0)
+			(at 237.49 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43403,7 +43890,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 318.77 214.63 0)
+		(at 322.58 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -43412,7 +43899,7 @@
 		(fields_autoplaced yes)
 		(uuid "49bebd1b-29d1-433c-b4ec-d3901808e707")
 		(property "Reference" "LED23"
-			(at 332.74 208.2098 0)
+			(at 336.55 208.2098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43420,7 +43907,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 332.74 210.7498 0)
+			(at 336.55 210.7498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43428,7 +43915,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 318.77 214.63 0)
+			(at 322.58 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43437,7 +43924,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 318.77 214.63 0)
+			(at 322.58 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43446,7 +43933,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 318.77 214.63 0)
+			(at 322.58 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43542,7 +44029,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 176.53 255.27 0)
+		(at 180.34 255.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -43551,7 +44038,7 @@
 		(fields_autoplaced yes)
 		(uuid "4cb76ea5-eb98-4bab-969f-ef08e535b7bd")
 		(property "Reference" "LED42"
-			(at 190.5 248.8498 0)
+			(at 194.31 248.8498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43559,7 +44046,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 190.5 251.3898 0)
+			(at 194.31 251.3898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43567,7 +44054,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 176.53 255.27 0)
+			(at 180.34 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43576,7 +44063,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 255.27 0)
+			(at 180.34 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43585,7 +44072,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 176.53 255.27 0)
+			(at 180.34 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43930,7 +44417,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 233.68 255.27 0)
+		(at 237.49 255.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -43939,7 +44426,7 @@
 		(fields_autoplaced yes)
 		(uuid "52a0da7f-6238-4b6a-85f5-bd8ae2d9a016")
 		(property "Reference" "LED44"
-			(at 247.65 248.8498 0)
+			(at 251.46 248.8498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43947,7 +44434,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 247.65 251.3898 0)
+			(at 251.46 251.3898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43955,7 +44442,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 233.68 255.27 0)
+			(at 237.49 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43964,7 +44451,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 255.27 0)
+			(at 237.49 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -43973,7 +44460,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 233.68 255.27 0)
+			(at 237.49 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44232,7 +44719,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 90.17 255.27 0)
+		(at 93.98 255.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -44241,7 +44728,7 @@
 		(fields_autoplaced yes)
 		(uuid "59618d16-9054-4ebf-b015-f87d447a84b9")
 		(property "Reference" "LED39"
-			(at 104.14 248.8498 0)
+			(at 107.95 248.8498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44249,7 +44736,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 104.14 251.3898 0)
+			(at 107.95 251.3898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44257,7 +44744,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 90.17 255.27 0)
+			(at 93.98 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44266,7 +44753,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 255.27 0)
+			(at 93.98 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44275,7 +44762,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 90.17 255.27 0)
+			(at 93.98 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44372,7 +44859,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 318.77 194.31 0)
+		(at 322.58 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -44381,7 +44868,7 @@
 		(fields_autoplaced yes)
 		(uuid "5a8e09f1-f649-405b-b98b-862ffe6c5c3e")
 		(property "Reference" "LED11"
-			(at 332.74 187.8898 0)
+			(at 336.55 187.8898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44389,7 +44876,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 332.74 190.4298 0)
+			(at 336.55 190.4298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44397,7 +44884,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 318.77 194.31 0)
+			(at 322.58 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44406,7 +44893,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 318.77 194.31 0)
+			(at 322.58 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -44415,7 +44902,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 318.77 194.31 0)
+			(at 322.58 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45021,7 +45508,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 62.23 275.59 0)
+		(at 66.04 275.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -45030,7 +45517,7 @@
 		(fields_autoplaced yes)
 		(uuid "6078e65c-41af-4bcf-95bb-1e24c01d81aa")
 		(property "Reference" "LED50"
-			(at 76.2 269.1698 0)
+			(at 80.01 269.1698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45038,7 +45525,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 76.2 271.7098 0)
+			(at 80.01 271.7098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45046,7 +45533,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 62.23 275.59 0)
+			(at 66.04 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45055,7 +45542,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 275.59 0)
+			(at 66.04 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45064,7 +45551,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 62.23 275.59 0)
+			(at 66.04 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -45518,6 +46005,72 @@
 			(project ""
 				(path "/63f5a0a7-4058-42ed-a215-6578acb070e1"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 549.91 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6837528a-462a-4315-8175-08212d682f70")
+		(property "Reference" "#PWR013"
+			(at 549.91 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 549.91 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 549.91 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 549.91 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 549.91 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "748f9118-3d4b-43d1-8599-b1254f15a7dc")
+		)
+		(instances
+			(project ""
+				(path "/63f5a0a7-4058-42ed-a215-6578acb070e1"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -46178,33 +46731,34 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 62.23 234.95 0)
+		(lib_id "power:+3V3")
+		(at 519.43 139.7 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "713e3b94-d2cf-4543-b322-d9372c26c0c6")
-		(property "Reference" "LED26"
-			(at 76.2 228.5298 0)
+		(uuid "6f17a687-299b-4e4e-8faa-3b1ffbefc861")
+		(property "Reference" "#PWR012"
+			(at 519.43 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 519.43 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "SK6812MINI-E"
-			(at 76.2 231.0698 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 62.23 234.95 0)
+		(property "Footprint" ""
+			(at 519.43 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46213,7 +46767,72 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 234.95 0)
+			(at 519.43 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 519.43 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57602125-019f-4444-8f4c-41ae204a355c")
+		)
+		(instances
+			(project ""
+				(path "/63f5a0a7-4058-42ed-a215-6578acb070e1"
+					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
+		(at 66.04 234.95 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "713e3b94-d2cf-4543-b322-d9372c26c0c6")
+		(property "Reference" "LED26"
+			(at 80.01 228.5298 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SK6812MINI-E"
+			(at 80.01 231.0698 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
+			(at 66.04 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46222,7 +46841,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 62.23 234.95 0)
+			(at 66.04 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46253,7 +46872,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 119.38 275.59 0)
+		(at 123.19 275.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -46262,7 +46881,7 @@
 		(fields_autoplaced yes)
 		(uuid "748c5648-3259-4646-9fe5-525d77933d97")
 		(property "Reference" "LED52"
-			(at 133.35 269.1698 0)
+			(at 137.16 269.1698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46270,7 +46889,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 133.35 271.7098 0)
+			(at 137.16 271.7098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46278,7 +46897,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 119.38 275.59 0)
+			(at 123.19 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46287,7 +46906,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 275.59 0)
+			(at 123.19 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46296,7 +46915,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 119.38 275.59 0)
+			(at 123.19 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46535,7 +47154,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 147.32 214.63 0)
+		(at 151.13 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -46544,7 +47163,7 @@
 		(fields_autoplaced yes)
 		(uuid "794df5a3-e665-4751-9551-7e3cf654b6fd")
 		(property "Reference" "LED17"
-			(at 161.29 208.2098 0)
+			(at 165.1 208.2098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46552,7 +47171,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 161.29 210.7498 0)
+			(at 165.1 210.7498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46560,7 +47179,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 147.32 214.63 0)
+			(at 151.13 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46569,7 +47188,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 214.63 0)
+			(at 151.13 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46578,7 +47197,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 147.32 214.63 0)
+			(at 151.13 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46885,7 +47504,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 290.83 275.59 0)
+		(at 294.64 275.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -46894,7 +47513,7 @@
 		(fields_autoplaced yes)
 		(uuid "7d53b0e8-74d6-45d1-96a3-b58ef1f697c9")
 		(property "Reference" "LED57"
-			(at 304.8 269.1698 0)
+			(at 308.61 269.1698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46902,7 +47521,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 304.8 271.7098 0)
+			(at 308.61 271.7098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46910,7 +47529,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 290.83 275.59 0)
+			(at 294.64 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46919,7 +47538,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 290.83 275.59 0)
+			(at 294.64 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46928,7 +47547,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 290.83 275.59 0)
+			(at 294.64 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46959,7 +47578,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 318.77 234.95 0)
+		(at 322.58 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -46968,7 +47587,7 @@
 		(fields_autoplaced yes)
 		(uuid "7e8454b3-1c5c-4496-9d67-708fd02646f5")
 		(property "Reference" "LED35"
-			(at 332.74 228.5298 0)
+			(at 336.55 228.5298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46976,7 +47595,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 332.74 231.0698 0)
+			(at 336.55 231.0698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46984,7 +47603,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 318.77 234.95 0)
+			(at 322.58 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -46993,7 +47612,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 318.77 234.95 0)
+			(at 322.58 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47002,7 +47621,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 318.77 234.95 0)
+			(at 322.58 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47277,7 +47896,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 347.98 255.27 0)
+		(at 351.79 255.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -47286,7 +47905,7 @@
 		(fields_autoplaced yes)
 		(uuid "82628798-140d-4b2c-9269-eb051a70231c")
 		(property "Reference" "LED48"
-			(at 361.95 248.8498 0)
+			(at 365.76 248.8498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47294,7 +47913,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 361.95 251.3898 0)
+			(at 365.76 251.3898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47302,7 +47921,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 347.98 255.27 0)
+			(at 351.79 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47311,7 +47930,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 347.98 255.27 0)
+			(at 351.79 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47320,7 +47939,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 347.98 255.27 0)
+			(at 351.79 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47439,7 +48058,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 233.68 275.59 0)
+		(at 237.49 275.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -47448,7 +48067,7 @@
 		(fields_autoplaced yes)
 		(uuid "83fcc426-a8f6-49e2-8f67-2775b7bf44f8")
 		(property "Reference" "LED55"
-			(at 247.65 269.1698 0)
+			(at 251.46 269.1698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47456,7 +48075,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 247.65 271.7098 0)
+			(at 251.46 271.7098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47464,7 +48083,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 233.68 275.59 0)
+			(at 237.49 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47473,7 +48092,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 233.68 275.59 0)
+			(at 237.49 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -47482,7 +48101,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 233.68 275.59 0)
+			(at 237.49 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48065,7 +48684,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 119.38 234.95 0)
+		(at 123.19 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -48074,7 +48693,7 @@
 		(fields_autoplaced yes)
 		(uuid "87d640ee-66c5-430e-96d8-4a099335d527")
 		(property "Reference" "LED28"
-			(at 133.35 228.5298 0)
+			(at 137.16 228.5298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48082,7 +48701,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 133.35 231.0698 0)
+			(at 137.16 231.0698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48090,7 +48709,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 119.38 234.95 0)
+			(at 123.19 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48099,7 +48718,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 234.95 0)
+			(at 123.19 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48108,7 +48727,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 119.38 234.95 0)
+			(at 123.19 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48227,7 +48846,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 147.32 194.31 0)
+		(at 151.13 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -48236,7 +48855,7 @@
 		(fields_autoplaced yes)
 		(uuid "8969435f-3a49-4c35-ac14-8724bd996e80")
 		(property "Reference" "LED5"
-			(at 161.29 187.8898 0)
+			(at 165.1 187.8898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48244,7 +48863,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 161.29 190.4298 0)
+			(at 165.1 190.4298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48252,7 +48871,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 147.32 194.31 0)
+			(at 151.13 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48261,7 +48880,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 194.31 0)
+			(at 151.13 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48270,7 +48889,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 147.32 194.31 0)
+			(at 151.13 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48301,7 +48920,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 119.38 194.31 0)
+		(at 123.19 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -48310,7 +48929,7 @@
 		(fields_autoplaced yes)
 		(uuid "8a315e2c-0597-44c8-adaf-cce4efdba894")
 		(property "Reference" "LED4"
-			(at 133.35 187.8898 0)
+			(at 137.16 187.8898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48318,7 +48937,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 133.35 190.4298 0)
+			(at 137.16 190.4298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48326,7 +48945,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 119.38 194.31 0)
+			(at 123.19 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48335,7 +48954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 194.31 0)
+			(at 123.19 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48344,7 +48963,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 119.38 194.31 0)
+			(at 123.19 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48441,7 +49060,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 374.65 182.88 0)
+		(at 378.46 182.88 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -48450,7 +49069,7 @@
 		(fields_autoplaced yes)
 		(uuid "8c4e45ed-e9f7-4324-bef8-3b32bb04d43c")
 		(property "Reference" "#PWR02"
-			(at 374.65 186.69 0)
+			(at 378.46 186.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48459,7 +49078,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 374.65 177.8 0)
+			(at 378.46 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48467,7 +49086,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 374.65 182.88 0)
+			(at 378.46 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48476,7 +49095,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 374.65 182.88 0)
+			(at 378.46 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48485,7 +49104,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 374.65 182.88 0)
+			(at 378.46 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48577,7 +49196,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 290.83 194.31 0)
+		(at 294.64 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -48586,7 +49205,7 @@
 		(fields_autoplaced yes)
 		(uuid "8eb6ddb3-87cb-445d-a16b-bc33ad9e7682")
 		(property "Reference" "LED10"
-			(at 304.8 187.8898 0)
+			(at 308.61 187.8898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48594,7 +49213,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 304.8 190.4298 0)
+			(at 308.61 190.4298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48602,7 +49221,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 290.83 194.31 0)
+			(at 294.64 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48611,7 +49230,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 290.83 194.31 0)
+			(at 294.64 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48620,7 +49239,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 290.83 194.31 0)
+			(at 294.64 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48963,7 +49582,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 204.47 255.27 0)
+		(at 208.28 255.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -48972,7 +49591,7 @@
 		(fields_autoplaced yes)
 		(uuid "90dda055-ca52-45e8-9908-1f20246daee9")
 		(property "Reference" "LED43"
-			(at 218.44 248.8498 0)
+			(at 222.25 248.8498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48980,7 +49599,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 218.44 251.3898 0)
+			(at 222.25 251.3898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48988,7 +49607,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 204.47 255.27 0)
+			(at 208.28 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -48997,7 +49616,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 255.27 0)
+			(at 208.28 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49006,7 +49625,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 204.47 255.27 0)
+			(at 208.28 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49509,7 +50128,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 33.02 255.27 0)
+		(at 36.83 255.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -49518,7 +50137,7 @@
 		(fields_autoplaced yes)
 		(uuid "99701a4d-17ec-4cf0-be00-30f62ecd1885")
 		(property "Reference" "LED37"
-			(at 46.99 248.8498 0)
+			(at 50.8 248.8498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49526,7 +50145,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 46.99 251.3898 0)
+			(at 50.8 251.3898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49534,7 +50153,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 33.02 255.27 0)
+			(at 36.83 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49543,7 +50162,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 255.27 0)
+			(at 36.83 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49552,7 +50171,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 33.02 255.27 0)
+			(at 36.83 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49943,7 +50562,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 33.02 194.31 0)
+		(at 36.83 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -49952,7 +50571,7 @@
 		(fields_autoplaced yes)
 		(uuid "a0c93e86-a755-4e9c-bffa-79613aece040")
 		(property "Reference" "LED1"
-			(at 46.99 187.8898 0)
+			(at 50.8 187.8898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49960,7 +50579,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 46.99 190.4298 0)
+			(at 50.8 190.4298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49968,7 +50587,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 33.02 194.31 0)
+			(at 36.83 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49977,7 +50596,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 194.31 0)
+			(at 36.83 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -49986,7 +50605,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 33.02 194.31 0)
+			(at 36.83 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50445,7 +51064,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 62.23 214.63 0)
+		(at 66.04 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -50454,7 +51073,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7ccc2cd-a3d1-4312-9bd9-164635449000")
 		(property "Reference" "LED14"
-			(at 76.2 208.2098 0)
+			(at 80.01 208.2098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50462,7 +51081,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 76.2 210.7498 0)
+			(at 80.01 210.7498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50470,7 +51089,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 62.23 214.63 0)
+			(at 66.04 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50479,7 +51098,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 214.63 0)
+			(at 66.04 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50488,7 +51107,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 62.23 214.63 0)
+			(at 66.04 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50587,7 +51206,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 33.02 234.95 0)
+		(at 36.83 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -50596,7 +51215,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac0596f0-28b1-4f71-a23e-eb5987cfad77")
 		(property "Reference" "LED25"
-			(at 46.99 228.5298 0)
+			(at 50.8 228.5298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50604,7 +51223,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 46.99 231.0698 0)
+			(at 50.8 231.0698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50612,7 +51231,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 33.02 234.95 0)
+			(at 36.83 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50621,7 +51240,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 234.95 0)
+			(at 36.83 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50630,7 +51249,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 33.02 234.95 0)
+			(at 36.83 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50729,7 +51348,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 62.23 255.27 0)
+		(at 66.04 255.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -50738,7 +51357,7 @@
 		(fields_autoplaced yes)
 		(uuid "acf5bdfb-fa69-4f83-b531-0ae4c173cac9")
 		(property "Reference" "LED38"
-			(at 76.2 248.8498 0)
+			(at 80.01 248.8498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50746,7 +51365,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 76.2 251.3898 0)
+			(at 80.01 251.3898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50754,7 +51373,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 62.23 255.27 0)
+			(at 66.04 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50763,7 +51382,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 255.27 0)
+			(at 66.04 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -50772,7 +51391,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 62.23 255.27 0)
+			(at 66.04 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51029,7 +51648,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 290.83 214.63 0)
+		(at 294.64 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -51038,7 +51657,7 @@
 		(fields_autoplaced yes)
 		(uuid "b3c524ac-6711-41d4-bdef-35be60b43e52")
 		(property "Reference" "LED22"
-			(at 304.8 208.2098 0)
+			(at 308.61 208.2098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51046,7 +51665,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 304.8 210.7498 0)
+			(at 308.61 210.7498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51054,7 +51673,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 290.83 214.63 0)
+			(at 294.64 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51063,7 +51682,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 290.83 214.63 0)
+			(at 294.64 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51072,7 +51691,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 290.83 214.63 0)
+			(at 294.64 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51171,7 +51790,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 176.53 234.95 0)
+		(at 180.34 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -51180,7 +51799,7 @@
 		(fields_autoplaced yes)
 		(uuid "b5139aff-b3a7-4e02-9719-41d4fa60af41")
 		(property "Reference" "LED30"
-			(at 190.5 228.5298 0)
+			(at 194.31 228.5298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51188,7 +51807,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 190.5 231.0698 0)
+			(at 194.31 231.0698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51196,7 +51815,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 176.53 234.95 0)
+			(at 180.34 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51205,7 +51824,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 176.53 234.95 0)
+			(at 180.34 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51214,7 +51833,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 176.53 234.95 0)
+			(at 180.34 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51385,7 +52004,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 347.98 275.59 0)
+		(at 351.79 275.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -51394,7 +52013,7 @@
 		(fields_autoplaced yes)
 		(uuid "b6107e93-9d91-4330-ad45-e0fa2a9ed802")
 		(property "Reference" "LED59"
-			(at 361.95 269.1698 0)
+			(at 365.76 269.1698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51402,7 +52021,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 361.95 271.7098 0)
+			(at 365.76 271.7098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51410,7 +52029,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 347.98 275.59 0)
+			(at 351.79 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51419,7 +52038,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 347.98 275.59 0)
+			(at 351.79 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -51428,7 +52047,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 347.98 275.59 0)
+			(at 351.79 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52245,7 +52864,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 62.23 194.31 0)
+		(at 66.04 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -52254,7 +52873,7 @@
 		(fields_autoplaced yes)
 		(uuid "c3ea8fb4-724d-46e0-af5f-41af2e5b1b97")
 		(property "Reference" "LED2"
-			(at 76.2 187.8898 0)
+			(at 80.01 187.8898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52262,7 +52881,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 76.2 190.4298 0)
+			(at 80.01 190.4298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52270,7 +52889,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 62.23 194.31 0)
+			(at 66.04 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52279,7 +52898,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 194.31 0)
+			(at 66.04 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52288,7 +52907,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 62.23 194.31 0)
+			(at 66.04 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52471,7 +53090,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 290.83 255.27 0)
+		(at 294.64 255.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -52480,7 +53099,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6e9d408-737b-45e0-83c1-9e35343afaae")
 		(property "Reference" "LED46"
-			(at 304.8 248.8498 0)
+			(at 308.61 248.8498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52488,7 +53107,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 304.8 251.3898 0)
+			(at 308.61 251.3898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52496,7 +53115,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 290.83 255.27 0)
+			(at 294.64 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52505,7 +53124,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 290.83 255.27 0)
+			(at 294.64 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52514,7 +53133,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 290.83 255.27 0)
+			(at 294.64 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52545,7 +53164,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 347.98 214.63 0)
+		(at 351.79 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -52554,7 +53173,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6fbb374-27fb-49c2-a6c2-04bcb416673c")
 		(property "Reference" "LED24"
-			(at 361.95 208.2098 0)
+			(at 365.76 208.2098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52562,7 +53181,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 361.95 210.7498 0)
+			(at 365.76 210.7498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52570,7 +53189,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 347.98 214.63 0)
+			(at 351.79 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52579,7 +53198,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 347.98 214.63 0)
+			(at 351.79 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52588,7 +53207,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 347.98 214.63 0)
+			(at 351.79 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52965,7 +53584,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 147.32 255.27 0)
+		(at 151.13 255.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -52974,7 +53593,7 @@
 		(fields_autoplaced yes)
 		(uuid "cbc01d15-51e1-4204-b2e5-c50544e96045")
 		(property "Reference" "LED41"
-			(at 161.29 248.8498 0)
+			(at 165.1 248.8498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52982,7 +53601,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 161.29 251.3898 0)
+			(at 165.1 251.3898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52990,7 +53609,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 147.32 255.27 0)
+			(at 151.13 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -52999,7 +53618,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 255.27 0)
+			(at 151.13 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53008,7 +53627,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 147.32 255.27 0)
+			(at 151.13 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53039,7 +53658,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 347.98 194.31 0)
+		(at 351.79 194.31 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -53048,7 +53667,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc2212b3-7ded-4acd-8043-5b2da5773943")
 		(property "Reference" "LED12"
-			(at 361.95 187.8898 0)
+			(at 365.76 187.8898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53056,7 +53675,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 361.95 190.4298 0)
+			(at 365.76 190.4298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53064,7 +53683,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 347.98 194.31 0)
+			(at 351.79 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53073,7 +53692,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 347.98 194.31 0)
+			(at 351.79 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53082,7 +53701,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 347.98 194.31 0)
+			(at 351.79 194.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53425,7 +54044,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 204.47 214.63 0)
+		(at 208.28 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -53434,7 +54053,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1eeb560-c7ae-4654-a455-0179994bcc41")
 		(property "Reference" "LED19"
-			(at 218.44 208.2098 0)
+			(at 222.25 208.2098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53442,7 +54061,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 218.44 210.7498 0)
+			(at 222.25 210.7498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53450,7 +54069,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 204.47 214.63 0)
+			(at 208.28 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53459,7 +54078,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 204.47 214.63 0)
+			(at 208.28 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53468,7 +54087,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 204.47 214.63 0)
+			(at 208.28 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53563,7 +54182,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 320.04 275.59 0)
+		(at 323.85 275.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -53572,7 +54191,7 @@
 		(fields_autoplaced yes)
 		(uuid "d284d672-5ce5-4654-bef7-07b163715cef")
 		(property "Reference" "LED58"
-			(at 334.01 269.1698 0)
+			(at 337.82 269.1698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53580,7 +54199,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 334.01 271.7098 0)
+			(at 337.82 271.7098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53588,7 +54207,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 320.04 275.59 0)
+			(at 323.85 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53597,7 +54216,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 320.04 275.59 0)
+			(at 323.85 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53606,7 +54225,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 320.04 275.59 0)
+			(at 323.85 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53793,7 +54412,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 119.38 214.63 0)
+		(at 123.19 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -53802,7 +54421,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3418ff9-6450-4681-ae7f-177eb31c5697")
 		(property "Reference" "LED16"
-			(at 133.35 208.2098 0)
+			(at 137.16 208.2098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53810,7 +54429,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 133.35 210.7498 0)
+			(at 137.16 210.7498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53818,7 +54437,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 119.38 214.63 0)
+			(at 123.19 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53827,7 +54446,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 214.63 0)
+			(at 123.19 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -53836,7 +54455,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 119.38 214.63 0)
+			(at 123.19 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54093,7 +54712,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 90.17 275.59 0)
+		(at 93.98 275.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -54102,7 +54721,7 @@
 		(fields_autoplaced yes)
 		(uuid "d6cb73c3-df32-4600-a6bc-24884a16ee60")
 		(property "Reference" "LED51"
-			(at 104.14 269.1698 0)
+			(at 107.95 269.1698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54110,7 +54729,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 104.14 271.7098 0)
+			(at 107.95 271.7098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54118,7 +54737,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 90.17 275.59 0)
+			(at 93.98 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54127,7 +54746,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 275.59 0)
+			(at 93.98 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54136,7 +54755,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 90.17 275.59 0)
+			(at 93.98 275.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54461,7 +55080,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 119.38 255.27 0)
+		(at 123.19 255.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -54470,7 +55089,7 @@
 		(fields_autoplaced yes)
 		(uuid "dcfd5ec7-985b-4eb2-b8aa-429ec7fe6608")
 		(property "Reference" "LED40"
-			(at 133.35 248.8498 0)
+			(at 137.16 248.8498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54478,7 +55097,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 133.35 251.3898 0)
+			(at 137.16 251.3898 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54486,7 +55105,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 119.38 255.27 0)
+			(at 123.19 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54495,7 +55114,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 255.27 0)
+			(at 123.19 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54504,7 +55123,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 119.38 255.27 0)
+			(at 123.19 255.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54599,7 +55218,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 147.32 234.95 0)
+		(at 151.13 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -54608,7 +55227,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1df81c8-36be-4506-ac47-dd589ec57089")
 		(property "Reference" "LED29"
-			(at 161.29 228.5298 0)
+			(at 165.1 228.5298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54616,7 +55235,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 161.29 231.0698 0)
+			(at 165.1 231.0698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54624,7 +55243,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 147.32 234.95 0)
+			(at 151.13 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54633,7 +55252,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 147.32 234.95 0)
+			(at 151.13 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54642,7 +55261,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 147.32 234.95 0)
+			(at 151.13 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54967,7 +55586,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 290.83 234.95 0)
+		(at 294.64 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -54976,7 +55595,7 @@
 		(fields_autoplaced yes)
 		(uuid "e8aafdcf-3492-434a-b802-30c863ed3b27")
 		(property "Reference" "LED34"
-			(at 304.8 228.5298 0)
+			(at 308.61 228.5298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54984,7 +55603,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 304.8 231.0698 0)
+			(at 308.61 231.0698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54992,7 +55611,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 290.83 234.95 0)
+			(at 294.64 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55001,7 +55620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 290.83 234.95 0)
+			(at 294.64 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55010,7 +55629,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 290.83 234.95 0)
+			(at 294.64 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55878,7 +56497,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 33.02 214.63 0)
+		(at 36.83 214.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -55887,7 +56506,7 @@
 		(fields_autoplaced yes)
 		(uuid "efb0bd7a-3cce-4b69-9aba-a38b54618900")
 		(property "Reference" "LED13"
-			(at 46.99 208.2098 0)
+			(at 50.8 208.2098 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55895,7 +56514,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 46.99 210.7498 0)
+			(at 50.8 210.7498 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55903,7 +56522,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 33.02 214.63 0)
+			(at 36.83 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55912,7 +56531,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 33.02 214.63 0)
+			(at 36.83 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -55921,7 +56540,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 33.02 214.63 0)
+			(at 36.83 214.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56330,7 +56949,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-various:SK6812MINI-E")
-		(at 261.62 234.95 0)
+		(at 265.43 234.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -56339,7 +56958,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9f680d1-7974-44c4-a242-7c00b3c135ac")
 		(property "Reference" "LED33"
-			(at 275.59 228.5298 0)
+			(at 279.4 228.5298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56347,7 +56966,7 @@
 			)
 		)
 		(property "Value" "SK6812MINI-E"
-			(at 275.59 231.0698 0)
+			(at 279.4 231.0698 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56355,7 +56974,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:LED_6028R"
-			(at 261.62 234.95 0)
+			(at 265.43 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56364,7 +56983,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 234.95 0)
+			(at 265.43 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56373,7 +56992,7 @@
 			)
 		)
 		(property "Description" "Reverse mount adressable LED (WS2812 protocol)"
-			(at 261.62 234.95 0)
+			(at 265.43 234.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -56555,6 +57174,86 @@
 			(project "OrthoTest"
 				(path "/63f5a0a7-4058-42ed-a215-6578acb070e1"
 					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Logic_LevelTranslator:SN74LVC1T45DCK")
+		(at 547.37 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe321879-a957-4901-804c-11cd52fc894e")
+		(property "Reference" "U5"
+			(at 565.15 145.9798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN74LVC1T45DCK"
+			(at 565.15 148.5198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 547.37 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn74lvc1t45.pdf"
+			(at 524.51 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Single-Bit Dual-Supply Bus Transceiver With Configurable Voltage Translation and 3-State Outputs, SOT-363"
+			(at 547.37 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "dbf0c8ff-2994-4fc4-b426-7a2291effef7")
+		)
+		(pin "3"
+			(uuid "2aa2f01b-ece8-420c-a377-7a0b5645f4e0")
+		)
+		(pin "6"
+			(uuid "cd4686b7-06ff-4cd2-a2e1-1e89c79e137d")
+		)
+		(pin "1"
+			(uuid "495cce89-7a4b-45ff-a691-096797d17cda")
+		)
+		(pin "2"
+			(uuid "e0ee0800-0c37-492c-a411-3ba98fea9c69")
+		)
+		(pin "4"
+			(uuid "86b46952-3211-4957-b115-58fb6e5b937b")
+		)
+		(instances
+			(project ""
+				(path "/63f5a0a7-4058-42ed-a215-6578acb070e1"
+					(reference "U5")
 					(unit 1)
 				)
 			)
